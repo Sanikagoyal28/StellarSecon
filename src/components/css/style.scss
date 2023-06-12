@@ -1,0 +1,35 @@
+
+@mixin text($size, $weight, $family, $color){
+    font-size: $size;
+    font-weight: $weight;
+    font-family: $family;
+    color:$color;
+}
+
+@mixin flexRow{
+    display: flex;
+    
+}
+
+$primary :  #F57009;
+$primaryColor : #F57009;
+
+.orangeText{
+    @include text(1rem, 500, "Heebo", $primaryColor )
+}
+
+.blackText{
+    @include text(2.3rem, 700, "Barlow", "#000" );
+    letter-spacing: 2px;
+    line-height:44px;
+}
+
+.ulList{
+    opacity:0.95;
+    li{
+        display: flex;
+        align-items: center;
+    }
+}
+
+@import "bootstrap/scss/bootstrap.scss";
