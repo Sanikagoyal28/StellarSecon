@@ -5,8 +5,11 @@
     padding: 0;
     box-sizing: border-box;
     overflow-x: hidden;
-    background-color: #fff;
     font-family: "Heebo", sans-serif;
+}
+
+body {
+    background-color: #fff;
 }
 
 ::-webkit-scrollbar {
@@ -21,7 +24,14 @@
     background-color: #F6F6F6;
 }
 
-.marketFlex {
+.service {
+    background-color: #343245;
+}
+
+.five{
+    background-color: rgba(245, 112, 9, 0.9);
+}
+.productFlex {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
