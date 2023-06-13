@@ -25,7 +25,7 @@ function Section4() {
     };
 
     return <>
-        <div className="container-fluid px-5 py-4 F6F6F6">
+        <div className="container-fluid px-5 py-5 F6F6F6">
             <h2 className="bg-transparent blackText">Market Sectors</h2>
             <Carousel responsive={responsive}>
                 <MarketCard text="Oil and Gas" />
