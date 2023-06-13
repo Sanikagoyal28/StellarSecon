@@ -12,3 +12,18 @@
 ::-webkit-scrollbar {
     display: none;
 }
+
+.image {
+    filter: brightness(45%);
+}
+
+.F6F6F6 {
+    background-color: #F6F6F6;
+}
+
+.marketFlex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}

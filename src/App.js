@@ -1,9 +1,9 @@
 import React from "react";
-import Section2 from "./components/section2";
+import Main from "./components/main";
 
 function App() {
   return <>
-    <Section2 />
+    <Main />
   </>
 }
 

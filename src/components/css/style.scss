@@ -8,7 +8,6 @@
 
 @mixin flexRow{
     display: flex;
-    
 }
 
 $primary :  #F57009;
@@ -22,6 +21,10 @@ $primaryColor : #F57009;
     @include text(2.3rem, 700, "Barlow", "#000" );
     letter-spacing: 2px;
     line-height:44px;
+}
+
+.slideText{
+    @include text(4rem, 700, "Barlow", "#fff" );
 }
 
 .ulList{

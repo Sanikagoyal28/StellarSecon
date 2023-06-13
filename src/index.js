@@ -5,8 +5,8 @@ import App from './App';
 
 import "bootstrap/dist/css/bootstrap.min.css"
 import "bootstrap/dist/js/bootstrap.bundle.min.js"
-import "./components/styles.css"
-import "./components/style.scss"
+import "./components/css/styles.css"
+import "./components/css/style.scss"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
