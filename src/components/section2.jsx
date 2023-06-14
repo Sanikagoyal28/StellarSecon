@@ -1,5 +1,3 @@
-import tick from "../assets/tick.svg"
-import SlideCard from "./slideCard"
 import about from "../assets/about_1.svg"
 
 function Section2() {
