@@ -28,9 +28,10 @@ body {
     background-color: #343245;
 }
 
-.five{
-    background-color: rgba(245, 112, 9, 0.9);
+.five {
+    background-color: rgb(235, 70, 18, 0.9);
 }
+
 .productFlex {
     display: flex;
     flex-wrap: wrap;

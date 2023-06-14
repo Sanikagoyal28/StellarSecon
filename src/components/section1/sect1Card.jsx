@@ -6,7 +6,7 @@ export default function Sect1Card(props) {
             <div className='row bg-transparent'>
                 <div className='col-md-7 bg-transparent'>
                     <p className='bg-transparent mb-4 slideText'>{props.firstText}</p>
-                    <h4 className='bg-transparent mb-3' style={{ opacity: "0.85" }}>{props.secText}</h4>
+                    <h4 className='bg-transparent mb-3 overflow-hidden' style={{ opacity: "0.85" }}>{props.secText}</h4>
                     <button className='btn btn-primary px-3 py-2'>Learn More</button>
                 </div>
             </div>
