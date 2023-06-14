@@ -6,6 +6,7 @@
     box-sizing: border-box;
     overflow-x: hidden;
     font-family: "Heebo", sans-serif;
+    z-index:1;
 }
 
 body {
@@ -30,6 +31,10 @@ body {
 
 .five {
     background-color: rgb(235, 70, 18, 0.9);
+}
+
+.fefefe {
+    color: #f1efef;
 }
 
 .productFlex {

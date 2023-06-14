@@ -6,9 +6,11 @@ import Section4 from './section4/section4'
 import Section5 from './section5/section5'
 import Section6 from './section6/section6'
 import Footer from './footer'
+import Navbar from './navbar'
 
 export default function Main() {
     return <>
+        <Navbar />
         <Section1 />
         <Section2 />
         <Section3 />
