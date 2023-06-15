@@ -7,14 +7,14 @@ import arrow from "../assets/arrow.svg"
 
 function Footer() {
     return <>
-        <div className="container-fluid bg-dark text-white pt-5 px-5">
+        <div className="container-fluid bg-dark text-white pt-5 px-5 px-sm-3 px-md-4">
             <div className="row pb-5 ms-4">
-                <div className="col-md-3 mx-4">
+                <div className="col-lg-3 col-md-3 mx-4 ms-md-0 me-md-2 mx-sm-0 mb-sm-4 mx-xs-0">
                     <img src={logo} className="my-3" />
                     <p>SECON is a Glass Reinforced Polyester product manufacturing Company established in 2013.</p>
                 </div>
-                <div className="col-md-2" role="button">
-                    <h5 className="mb-3">Quick Links</h5>
+                <div className="col-lg-2 col-md-3 mb-sm-4 mx-lg-3" role="button">
+                    <h5 className="mb-3 mb-sm-2">Quick Links</h5>
                     <p className="mb-2">About Us</p>
                     <p className="mb-2">Contact Us</p>
                     <p className="mb-2">Projects</p>
@@ -22,16 +22,16 @@ function Footer() {
                     <p className="mb-2">Terms and Conditions</p>
                     <p className="mb-2">Privacy Policy</p>
                 </div>
-                <div className="col-md-2" role="button">
-                    <h5 className="mb-3">Products</h5>
+                <div className="col-lg-2.6 col-md-2 mb-sm-4 mx-lg-3" role="button">
+                    <h5 className="mb-3 mb-sm-2">Products</h5>
                     <p className="mb-2">Battery Box</p>
                     <p className="mb-2">Cabinet</p>
                     <p className="mb-2">Sealing Plate</p>
                     <p className="mb-2">Skylight</p>
                     <p className="mb-2">Planters</p>
                 </div>
-                <div className="col-md-3">
-                    <h5 className="mb-3">News Letter</h5>
+                <div className="col-lg-3 col-md-3 mb-sm-4 mx-lg-3">
+                    <h5 className="mb-3 mb-sm-2">News Letter</h5>
                     <p>Sign Up for Industry alerts, our latest news, insights and thoughts from Secon.</p>
                     <form className="my-3 me-5" onSubmit={(e) => { e.preventDefault(); console.log("abcde") }}>
                         <div className="input-group mb-3">

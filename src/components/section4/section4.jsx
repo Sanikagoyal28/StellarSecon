@@ -19,7 +19,7 @@ function Section4() {
             items: 2
         },
         mobile: {
-            breakpoint: { max: 464, min: 0 },
+            breakpoint: { max: 730, min: 0 },
             items: 1
         }
     };
@@ -27,20 +27,22 @@ function Section4() {
     return <>
         <div className="container-fluid px-5 py-5 F6F6F6">
             <h2 className="bg-transparent blackText">Market Sectors</h2>
-            <Carousel responsive={responsive}>
-                <MarketCard text="Oil and Gas" />
-                <MarketCard text="Renewable Energy" />
-                <MarketCard text="Road and Infrastructure" />
-                <MarketCard text="Fire and Safety" />
-                <MarketCard text="Electrical and Instrumentation" />
-                <MarketCard text="Utilities and Sewage" />
-                <MarketCard text="Storage and Transportation" />
-                <MarketCard text="Marine and Automobile" />
-                <MarketCard text="Industrial Complex" />
-                <MarketCard text="Architectural and Landscaping" />
-                <MarketCard text="Facility Management" />
-                <MarketCard text="Events, Signage and Fit-out" />
-            </Carousel>
+            <div className="row justify-content-center">
+                <Carousel responsive={responsive}>
+                    <MarketCard text="Oil and Gas" />
+                    <MarketCard text="Renewable Energy" />
+                    <MarketCard text="Road and Infrastructure" />
+                    <MarketCard text="Fire and Safety" />
+                    <MarketCard text="Electrical and Instrumentation" />
+                    <MarketCard text="Utilities and Sewage" />
+                    <MarketCard text="Storage and Transportation" />
+                    <MarketCard text="Marine and Automobile" />
+                    <MarketCard text="Industrial Complex" />
+                    <MarketCard text="Architectural and Landscaping" />
+                    <MarketCard text="Facility Management" />
+                    <MarketCard text="Events, Signage and Fit-out" />
+                </Carousel>
+            </div>
         </div>
     </>
 }

@@ -12,7 +12,7 @@ function Section1() {
             <div className="carousel-inner">
                 <div className="carousel-item active">
                     <div className="row">
-                        <img src={img1} width="100vw" height="600" className="image" />
+                        <img src={img1} width="100vw" className="image" />
                         <Sect1Card firstText="Reliable Industrial Solutions"
                             secText="Delivers sustainable solutions and services to various industries. Our partners and client’s value us for the quality of our products and services."
                         />

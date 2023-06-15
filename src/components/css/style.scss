@@ -9,8 +9,18 @@
     display: flex;
 }
 
-$primary : #EB4612;
-$primaryColor : rgb(235, 70, 18);
+$primary : #C23947;
+$primaryColor : #C23947;
+$enable-negative-margins: true;
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 300px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+);
 
 .orangeText {
     @include text(1rem, 500, "Heebo", $primaryColor )
@@ -46,6 +56,18 @@ ul {
     li {
         display: flex;
         align-items: center;
+    }
+}
+
+@media(max-width:550px) {
+    .slideText {
+        font-size: 3.5rem;
+    }
+}
+
+@media(max-width:450px) {
+    .slideText {
+        font-size: 3rem;
     }
 }
 
