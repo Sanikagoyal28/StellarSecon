@@ -1,41 +1,43 @@
+import { Link, useNavigate } from "react-router-dom"
 import logo from "../assets/logo.svg"
 import search from "../assets/search.svg"
 
 function Navbar() {
+
+    const navigate = useNavigate()
     return <>
         <nav className="navbar shadow-sm py-0" style={{ position: "fixed", zIndex: "999" }}>
             <nav className="navbar navbar-expand-lg navbar-light bg-light py-0 px-2" style={{ width: "100vw" }}>
                 <div className="container-fluid py-0">
-                    <a className="navbar-brand me-5" href="#"><img src={logo} /></a>
+                    <Link className="navbar-brand me-5" to="/"><img src={logo} /></Link>
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                             <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href="#">Home</a>
+                                <Link className="nav-link active" aria-current="page" to="/">Home</Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">About Us</a>
+                                <Link className="nav-link" to="#">About Us</Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">Products</a>
+                                <Link className="nav-link" to="#">Products</Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">Services</a>
+                                <Link className="nav-link" to="/services/Manufacturing">Services</Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">Projects</a>
+                                <Link className="nav-link" to="#">Projects</Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">Contact Us</a>
+                                <Link className="nav-link" to="#">Contact Us</Link>
                             </li>
                             <li className="nav-item dropdown">
-                                <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <Link className="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Market Sectors
-                                </a>
+                                </Link>
                                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a className="dropdown-item" href="#">Action</a></li>
-                                    <li><a className="dropdown-item" href="#">Another action</a></li>
-                                    <li><hr className="dropdown-divider" /></li>
-                                    <li><a className="dropdown-item" href="#">Something else here</a></li>
+                                    <li><Link className="dropdown-item" to="#">Action</Link></li>
+                                    <li><Link className="dropdown-item" to="#">Another action</Link></li>
+                                    <li><Link className="dropdown-item" to="#">Something else here</Link></li>
                                 </ul>
                             </li>
                         </ul>

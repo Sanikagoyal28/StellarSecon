@@ -42,4 +42,11 @@ $primaryColor : rgb(235, 70, 18);
     padding: 6px;
 }
 
+ul {
+    li {
+        display: flex;
+        align-items: center;
+    }
+}
+
 @import "bootstrap/scss/bootstrap.scss";
