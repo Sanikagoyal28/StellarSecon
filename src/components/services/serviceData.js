@@ -22,7 +22,7 @@ const service = [
         title: "Composite Repair",
         text: "SECON offers advanced custom-engineered composite repair systems, which are designed explicitly for piping, pipelines, tanks and concrete structures. It utilizes high-strength epoxy, urethane, and vinyl ester resins in concurrence with glass fibers, carbon and Kevlar to build unmatched strength, durability, and chemical resistant composites.",
         image: { image },
-        listHead: "",
+        listHead: "Multiple types of Repair Services Provided",
         list: [
             "Pipe Repair", "Tank Repair", "Flange Repair", "Civil Repair", "Online Leak Sealing", "Pipe Protection", "Support Protection", "Structural Protection", "Structural Reinforcement"
         ]
@@ -31,6 +31,7 @@ const service = [
         title: "GRP Lining",
         text: "SECON offer GRP lining services that protect and extend life of containments that store fuel, chemicals, food, water and sewage. GRP Lining is a significant application for corrosion resistance, structural strengthening, Rehabilitation and waterproofing. GRP lamination is recommended in Water Storage Tanks, Sewerage Tanks, Chemical Storage Tanks, Tank Roofs, Manholes, Sewerage Sump Pit, Cooling Towers. and Fire Water Tanks, Marine Vessels etc.",
         image: { image },
+        listHead:"GRP Lining Services",
         list: [
             "Corrosion Protection", "Strengthning", "Rehabilitation", "Water Proofing"
         ]

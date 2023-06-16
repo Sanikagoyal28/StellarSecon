@@ -1,10 +1,11 @@
 import img1 from "../../assets/image.jpg"
-import Footer from "../footer"
-import Navbar from "../navbar"
+import Footer from "../utils/footer"
+import Navbar from "../utils/navbar"
 import tick from "../../assets/tick.svg"
 import service from "./serviceData"
 import { useEffect, useState } from "react"
 import { useParams } from "react-router"
+import Carousel from "../utils/carousel"
 
 function Service() {
 
@@ -21,7 +22,6 @@ function Service() {
     useEffect(() => {
         if (service.length > 0) {
             service.map((s) => {
-                console.log(name)
                 if (s.title === name) {
                     setTitle(s.title)
                     setText(s.text)
@@ -35,23 +35,24 @@ function Service() {
         }
     }, [name])
 
+    useEffect(() => {
+        window.scroll(0, 0)
+    }, [])
+
     return <>
         <Navbar />
-        <div className="container-fluid px-0">
-            <div className="row">
-                <img src={image} width="100vw" height="600" className="image" />
-            </div>
-        </div>
+        <Carousel image={image} />
 
         <div className="container my-3">
-            <h2 className="slideText mb-3" >{title}</h2>
-            <p>{text}</p>
-            <h4>{head}</h4>
-            <p>{text2}</p>
-            <h4>{listHead}</h4>
+            <h2 className="slideText heading mb-0" >{title}</h2>
+            <div className="underline mb-3" />
+            <p className="overflow-hidden">{text}</p>
+            {head != '' || head != undefined ? <h4 className="overflow-hidden">{head}</h4> : null}
+            {text2 != '' || text2 != undefined ? <p className="overflow-hidden">{text2}</p> : null}
+            <h4 className="overflow-hidden">{listHead}</h4>
             <ul className="ps-0">
                 {list.length > 0 ? list.map((l) => {
-                    return <li className="mb-2"><img src={tick} className="me-2" />{l}</li>
+                    return <li className="mb-2"><img src={tick} className="tick me-2" />{l}</li>
                 }) : null}
             </ul>
         </div>

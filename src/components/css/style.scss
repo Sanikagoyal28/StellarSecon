@@ -14,12 +14,12 @@ $primaryColor : #C23947;
 $enable-negative-margins: true;
 
 $grid-breakpoints: (
-  xs: 0,
-  sm: 300px,
-  md: 768px,
-  lg: 992px,
-  xl: 1200px,
-  xxl: 1400px
+    xs: 0,
+    sm: 300px,
+    md: 768px,
+    lg: 992px,
+    xl: 1200px,
+    xxl: 1400px
 );
 
 .orangeText {
@@ -59,15 +59,67 @@ ul {
     }
 }
 
+.aboutImage {
+    height: 500px;
+
+    img {
+        background-size: cover;
+        height: 500px;
+        filter: brightness(40%);
+        overflow-y: hidden;
+    }
+}
+
+.aboutContent {
+    position: relative;
+    bottom: 400px;
+}
+
+.underline{
+    height:4px;
+    width:340px;
+    background-color:#717171;
+}
+
+@media(max-width:950px) {
+    .aboutImage {
+        height: 540px;
+
+        img {
+            height: 540px;
+        }
+    }
+    .aboutContent{
+        bottom:450px;
+    }
+}
+
+@media(max-width:650px){
+    .slideText{
+        font-size: 3.8rem;
+    }
+
+    .underline{
+        width:310px;
+    }
+}
+
 @media(max-width:550px) {
     .slideText {
         font-size: 3.5rem;
+    }
+
+    .underline{
+        width:300px;
     }
 }
 
 @media(max-width:450px) {
     .slideText {
         font-size: 3rem;
+    }
+    .underline{
+        width:260px;
     }
 }
 

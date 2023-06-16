@@ -1,9 +1,9 @@
-import logo from "../assets/logo.svg"
-import fb from "../assets/fb.svg"
-import insta from "../assets/insta.svg"
-import linkedin from "../assets/linkedin.svg"
-import twitter from "../assets/twitter.svg"
-import arrow from "../assets/arrow.svg"
+import logo from "../../assets/logo.svg"
+import fb from "../../assets/fb.svg"
+import insta from "../../assets/insta.svg"
+import linkedin from "../../assets/linkedin.svg"
+import twitter from "../../assets/twitter.svg"
+import arrow from "../../assets/arrow.svg"
 
 function Footer() {
     return <>

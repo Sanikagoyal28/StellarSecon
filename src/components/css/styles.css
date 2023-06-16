@@ -26,6 +26,10 @@ body {
     background-color: #F6F6F6;
 }
 
+.f2f2f2 {
+    background-color: #f2f2f2;
+}
+
 .service {
     background-color: #343245;
 }
@@ -47,13 +51,31 @@ body {
 
 .prodCard {
     width: 16vw;
-    height: 200px !important ;
+    height: 200px !important;
 }
+
+.mainButton {
+    background-image: linear-gradient(to right, #da4e5c, #8b2c26) !important;
+}
+
+.heading {
+    background: linear-gradient(to right, #a03931, #dc7a84, #adacac);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.tick{
+    color:#444444;
+    width:20px;
+    background: linear-gradient(to right, #391e1e, #441c1c, #a03931);
+}
+
 
 @media(max-width:1100px) {
     .image {
         height: 650px;
     }
+
     .prodCard {
         width: 18vw;
     }
@@ -63,22 +85,31 @@ body {
     .image {
         height: 620px;
     }
+
     .prodCard {
         width: 22vw;
     }
 }
 
-@media(max-width:800px){
+@media(max-width:800px) {
     .prodCard {
         width: 26vw;
     }
+    .tick{
+        width:24px;
+    }
 }
+
 @media(max-width:650px) {
     .image {
         height: 680px;
     }
+
     .prodCard {
         width: 30vw;
+    }
+    .tick{
+        width:26px;
     }
 }
 
@@ -86,13 +117,17 @@ body {
     .image {
         height: 730px;
     }
+
     .prodCard {
         width: 48vw;
     }
+    .tick{
+        width:28px;
+    }
 }
 
-@media(max-width:420px){
+@media(max-width:420px) {
     .prodCard {
-        width:60vw;
+        width: 60vw;
     }
 }
