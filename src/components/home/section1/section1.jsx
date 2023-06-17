@@ -1,5 +1,5 @@
 import Sect1Card from "./sect1Card";
-import img1 from "../../assets/image.jpg"
+import img1 from "../../../assets/image.jpg"
 
 function Section1() {
     return <>

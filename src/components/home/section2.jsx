@@ -1,4 +1,4 @@
-import about from "../assets/about_1.svg"
+import about from "../../assets/about_1.svg"
 
 function Section2() {
     return <>

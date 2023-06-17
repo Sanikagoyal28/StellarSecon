@@ -1,4 +1,4 @@
-import tick from "../../assets/tick.svg"
+import tick from "../../../assets/tick.svg"
 
 function ServiceCard(props) {
     return <>

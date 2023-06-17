@@ -1,4 +1,4 @@
-import marketing from "../../assets/marketing.svg"
+import marketing from "../../../assets/marketing.svg"
 
 function MarketCard(props) {
     return <>

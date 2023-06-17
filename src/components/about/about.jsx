@@ -1,6 +1,6 @@
 import Footer from "../utils/footer"
 import Navbar from "../utils/navbar"
-import Section1 from "../section1/section1"
+import Section1 from "../home/section1/section1"
 import img1 from "../../assets/image.jpg"
 import tick from "../../assets/tick.svg"
 import { useEffect } from "react"

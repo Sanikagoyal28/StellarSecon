@@ -1,4 +1,4 @@
-const product = [
+const products = [
     {
         name:"GRP Enclosure",
         items:[
@@ -295,3 +295,5 @@ const product = [
         ]
     },
 ]
+
+export default products

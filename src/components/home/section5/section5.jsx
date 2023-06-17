@@ -1,9 +1,9 @@
 import ProdCard from "./prodCard"
-import Enclosure from "../../assets/enclosure.svg"
-import Road from "../../assets/road.svg"
-import Roof from "../../assets/roof.svg"
-import fire from "../../assets/fire.svg"
-import instr from "../../assets/instrum.svg"
+import Enclosure from "../../../assets/enclosure.svg"
+import Road from "../../../assets/road.svg"
+import Roof from "../../../assets/roof.svg"
+import fire from "../../../assets/fire.svg"
+import instr from "../../../assets/instrum.svg"
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 

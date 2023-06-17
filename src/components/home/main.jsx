@@ -5,8 +5,8 @@ import Section3 from './section3/section3'
 import Section4 from './section4/section4'
 import Section5 from './section5/section5'
 import Section6 from './section6/section6'
-import Footer from './utils/footer'
-import Navbar from './utils/navbar'
+import Footer from '../utils/footer'
+import Navbar from '../utils/navbar'
 
 export default function Main() {
 

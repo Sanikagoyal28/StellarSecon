@@ -1,4 +1,4 @@
-import image from "../../assets/project.png"
+import image from "../../../assets/project.png"
 
 function ProjCard(props) {
     return <>
