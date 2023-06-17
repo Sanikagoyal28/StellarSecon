@@ -1,40 +1,35 @@
 const product = [
     {
-        name:"",
+        name:"GRP Enclosure",
         items:[
             {
-                title:"",
-                content:"",
+                title:"Battery Enclosure",
+                content:"SECON manufactures Battery enclosure or battery box with fire retardant weatherproof GRP material. Size of enclosure or box is based on the backup system, which derives the size and number of batteries. Top lid can be detachable or hinged option. Sand traps, air ventilation louvers, racking and acid drainage are optional.",
                 image:""
             },
             {
-                title:"",
-                content:"",
+                title:"Metering Enclosure",
+                content:"Glass reinforced polyester or GRP enclosures are manufactured in Qatar to serve the water and energy industries in the country. GRP enclosures or cabinets are designed for protection with selective NEMA ratings and IP ratings certified to BS EN 60529. These cabinets are weatherproof materials with certified self-extinguishing fire retardancy and anti-static external gelcoat finish. Product ranges from single door to multi door, metering cabinets, specialized enclosures for system integrations, and utility specific enclosures.",
                 image:""
             },
             {
-                title:"",
-                content:"",
+                title:"Scada System Enclosures",
+                content:"Our GRP enclosures are compatible for outdoor application with weatherproof and antistatic properties. The major application of these GRP Single Door Enclosures is in the protection of LV and MV electrical distribution panels housed in them. We provide multiple options to allow our customers to customize the final product to meet their project requirement. All GRP enclosures are designed and manufactured in compliance with specific industrial standards. ",
                 image:""
             },
             {
-                title:"",
-                content:"",
-                image:""
-            },
-            {
-                title:"",
-                content:"",
+                title:"Kiosks",
+                content:"SECON construct grp modular kiosks based on client’s design and required features. GRP kiosks is mostly for outdoor application of HV/LV and MV/LV distribution systems. The product ranges from substation kiosks, IP55 kiosks, shelters and capacitor banks kiosks. Manufactured in fire retardant grp material with corrosion resistant hardware.",
                 image:""
             }
         ]
     },
     {
-        name:"",
+        name:"Fire and Safety",
         items:[
             {
-                title:"",
-                content:"",
+                title:"Fire Extinguisher Cabinet",
+                content:"SECON GRP Fire cabinets are compatible for indoor and outdoor application with weatherproof and antistatic properties. GRP cabinets are best suited to accommodate Fire extinguishers, firefighting equipment, fire hose reels, and other firefighting accessories. GRP Fire cabinets are manufactured in UV resistant and Flame Red-RAL3000 gelcoat with clearly marked labels. Cabinets are non-corrosive locks, hinges which allow quick access during an emergency situation, these cabinets are perfectly suited for industrial and commercial use.",
                 image:""
             },
             {
