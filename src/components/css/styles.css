@@ -32,10 +32,7 @@ body {
 
 .service {
     background-color: #343245;
-}
-
-.five {
-    background-color: rgb(194, 57, 71, 0.9);
+    background-image: linear-gradient(to bottom right, #89322b, #dc7a84, #9b9b9b);
 }
 
 .fefefe {
@@ -72,11 +69,11 @@ body {
     background: linear-gradient(to right, #4a2929, #522222, #704444);
 }
 
-.fitContent{
-    width:fit-content;
+.fitContent {
+    width: fit-content;
 }
 
-li::marker{
+li::marker {
     font-size: 1.2rem;
     font-weight: 500;
 
@@ -88,7 +85,7 @@ li::marker{
     }
 
     .prodCard {
-        width: 18vw;
+        width: 20vw;
     }
 }
 
@@ -102,19 +99,17 @@ li::marker{
     .image {
         height: 620px;
     }
-
-    .prodCard {
-        width: 22vw;
-    }
 }
 
-@media(max-width:800px) {
+@media(max-width:850px) {
     .prodCard {
         width: 26vw;
     }
+}
 
-    .tick {
-        width: 24px;
+@media(max-width:700px) {
+    .prodCard {
+        width: 34vw;
     }
 }
 
@@ -124,7 +119,7 @@ li::marker{
     }
 
     .prodCard {
-        width: 30vw;
+        width: 36vw;
     }
 
     .tick {
@@ -137,12 +132,14 @@ li::marker{
         height: 730px;
     }
 
-    .prodCard {
-        width: 48vw;
-    }
-
     .tick {
         width: 28px;
+    }
+}
+
+@media(max-width:500px) {
+    .prodCard {
+        width: 54vw;
     }
 }
 

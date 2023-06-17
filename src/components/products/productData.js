@@ -38,144 +38,141 @@ const product = [
                 image:""
             },
             {
-                title:"",
-                content:"",
+                title:"Fire Extinguisher Stand",
+                content:"SECON manufactures GRP Fire Extinguisher stands are compatible for indoor and outdoor application with UV resistant, and weatherproof properties. GRP Fire extinguisher stands find its application where hanging provision is not available. Portable GRP Fire extinguisher stands are widely used at Events, glass walls area and gypsum partition wall area.",
                 image:""
             },
             {
-                title:"",
-                content:"",
-                image:""
-            },
-            {
-                title:"",
-                content:"",
+                title:"Fire Water Sectional Tanks",
+                content:"GRP panel water tank is a modular system, which enables a water storage tank of any desired size to achieve. GRP fire water sectional tank are the most accepted design of tank due to its convenient features like easy transportation and can be constructed at even narrow accessible area.  The panel is made of fiberglass reinforced plastics material which make the tank complying with industrial standards.",
                 image:""
             }
         ]
     },
     {
-        name:"",
+        name:"Instrumentation Products",
         items:[
             {
-                title:"",
-                content:"",
+                title:"Instrument Enclosures",
+                content:"SECON Fiberglass product range includes instrument enclosures designed to safeguard single or multiple instruments. Manufactured in weatherproof grp material with anti-static properties along with corrosion resistant hardware. GRP instrument enclosures are compatible for indoor and outdoor application with UV resistant, and weatherproof properties.",
                 image:""
             },
             {
-                title:"",
-                content:"",
-                image:""
-            },
-            {
-                title:"",
-                content:"",
-                image:""
-            },
-            {
-                title:"",
-                content:"",
-                image:""
-            },
-            {
-                title:"",
-                content:"",
+                title:"Instrument Sunshade",
+                content:"SECON GRP sunshades or GRP Canopy protect instruments and field equipment from mechanical impact of falling objects, radiant solar temperature, blowing dust and rain. At the same time, sunshades reduce the cost of cooling systems needed. GRP offers strength, weight and corrosion resistance advantages for harsh operating environments. Mounts to a standard 2” pipe stand or options with several types of mounting arrangement kits. SECON offers both open and closed sunshades of the best quality. These can be customized to suit the client’s requirements.",
                 image:""
             }
         ]
     },
     {
-        name:"",
+        name:"Roofing Products",
         items:[
             {
-                title:"",
-                content:"",
+                title:"GRP Products",
+                content:"SECON manufactures GRP single or multi-skin skylight sheets, soaker panels or roof curbs, gutters, and downspouts. These GRP roofing products are designed to offer features such as sealing, passage of natural light with thermal insulation, and fluid drainage. SECON custom manufacture GRP roofing products to match respective manufacturers roof profiles in UV resistant, weatherproof, fire retardant and desired colour GRP material.",
                 image:""
             },
             {
-                title:"",
-                content:"",
+                title:"Skylight",
+                content:"SECON Manufactures GRP Skylight sheets which are used for outdoors, finding their major application in serving as a roof with thermal insulation, passage of natural light and sealing. By selecting UV stable clear thermo setting polyester resins and ‘E’ grade powder bond glass fiber mat of high quality SECON GRP skylight achieves better passage of daylight into the warehouses, factories, and commercial buildings. Double skin sheets have better insulating properties and can be used with composite panels. SECON custom manufacture GRP single and double skin skylight to match respective manufacturers roof profiles and sizes can be customized to the customer requirements.",
                 image:""
             },
             {
-                title:"",
-                content:"",
+                title:"Corrugated Sheets",
+                content:"SECON Manufactures GRP corrugated sheets which are used for outdoors, finding their major application in serving as a roofing sheets with thermal insulation, passage of natural light and sealing. By selecting UV stable, fire retardant, pigmented resins and fiber mat of high quality, SECON GRP corrugated sheets are best suited for the warehouses, factories, and commercial buildings. SECON custom manufacture GRP corrugated sheets to match required roof profile, colour and sizes.",
                 image:""
             },
             {
-                title:"",
-                content:"",
+                title:"Soaker Panels and Roof Curbs",
+                content:"GRP soaker panel or roof curb are manufactured by using UV stabilized gel coats, thermosetting polyester resin and ‘E’ grade glass fiber mat of high quality. SECON GRP roof curbs are designed in the most appropriate way to provide a 100% leak proof connection between the normal roofing sheet and any projection above the roof surface designed to accommodate extract fans, chimneys and columns. GRP soaker panels are available in round, rectangular and square openings based on customer requirement. SECON customize roof curbs with variant colours, dimensions, and thickness to make the grp product compatible with the customer requirement.",
                 image:""
             },
             {
-                title:"",
-                content:"",
+                title:"Downspouts and Gutters",
+                content:"GRP downspouts and gutters are manufactured by using UV stabilized gel coats, thermosetting polyester resin and ‘E’ grade glass fiber mat of high quality. GRP downspouts and gutters are used in Construction industry with their application for fluid drainage with sealing. Thermal insulation, non-adsorbent to hydrocarbons and are high temperature resistant makes SECON GRP Downspouts and Gutters best suited for their application. SECON fiberglass provides multiple options allow our customers to customize the final product to meet their requirement.",
                 image:""
             }
         ]
     },
     {
-        name:"",
+        name:"Road and Infrastructure",
+        desc:"SECON manufactures GRP sealing plates, gully baskets, manhole cover, GRP ladder and GRP Handrail based Qatar construction standards, QCS. SECON fiberglass products are manufactured by using UV stabilized gel coats, thermosetting polyester resin and ‘E’ grade glass fiber mat of high quality. GRP products are used for road and infrastructure construction industry with their application for manhole sealing, preventing foul odours, corrosion protection, concrete protection, storm water filtering and passage of water and drainage.",
         items:[
             {
-                title:"",
-                content:"",
+                title:"Sealing Plate",
+                content:"SECON manufactures GRP sealing plates as per Qatar construction standard recommendation. GRP sealing plates are fitted between manhole over and frame to prevent ingress as well as the escape of toxic and foul odour from the drainage. SECON custom manufacture GRP sealing plates with respect to manhole cover manufacturers profile to achieve best sealing possible. ",
                 image:""
             },
             {
-                title:"",
-                content:"",
+                title:"Gully Basket",
+                content:"SECON manufactures GRP gully baskets as per Qatar construction standard recommendation. GRP gully removable baskets are fitted in road gullies to collect solid particles from the storm water before it passes to the storm water network. SECON also custom manufacture GRP gully baskets with respect to road gully manufacturers profile to achieve quick maintenance activities. ",
                 image:""
             },
             {
-                title:"",
-                content:"",
+                title:"Manhole Cover",
+                content:"SECON supply Glass Reinforced plastic (GRP) manhole covers which are strong, lightweight, corrosion resistant, thermally inert, electrically nonconductive and maintenance free. The unique properties of GRP that make them suitable and desirable for a wide range of manhole cover applications.",
                 image:""
             },
             {
-                title:"",
-                content:"",
+                title:"GRP Ladder",
+                content:"SECON GRP Ladders are manufactured as per Qatar construction standard recommendation which can be used for manholes and industrial structures. Properties like waterproof, rustproof, shockproof, lightweight and nonconductive makes GRP ladders best suited used for wide range of industrial applications. ",
                 image:""
             },
             {
-                title:"",
-                content:"",
+                title:"GRP HandRail",
+                content:"SECON manufactures and install round tubes GRP handrails, square tubes GRP handrails and channel top GRP handrails. GRP handrails for their corrosion resistance, electrical nonconductivity and long services life. ",
                 image:""
             }
         ]
     },
     {
-        name:"",
+        name:"Architectural Features",
+        desc:"SECON architecture division expertise in designing and manufacturing architectural features like GRP Domes, wall claddings, randomes, Pergola, Pipe Ducts, Cornish, Decorative wall panels and Mashrebiya Elements. Using UV stabilized and fire retardant, high quality polyester resins and glass fiber, SECON architectural products are highly compatible with high temperature and harsh environments. The lightweight property and high mouldability of SECON GRP products make it preferable over steel, wood, cement or gypsum. ",
         items:[
             {
-                title:"",
+                title:"Domes",
                 content:"",
                 image:""
             },
             {
-                title:"",
+                title:"Wall Cladding",
                 content:"",
                 image:""
             },
             {
-                title:"",
+                title:"Randome",
                 content:"",
                 image:""
             },
             {
-                title:"",
+                title:"Pergola",
                 content:"",
                 image:""
             },
             {
-                title:"",
+                title:"Pipe Ducts",
+                content:"",
+                image:""
+            },
+            {
+                title:"Cornish",
+                content:"",
+                image:""
+            },
+            {
+                title:"Decorative Wall Panels",
+                content:"",
+                image:""
+            },
+            {
+                title:"Mashrebiya Elements",
                 content:"",
                 image:""
             }
         ]
     },
     {
-        name:"",
+        name:"Planters",
         items:[
             {
                 title:"",
