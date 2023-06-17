@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/secon_website/static/css/main.4fd7203b.css",
-    "main.js": "/secon_website/static/js/main.7d5dd4ac.js",
+    "main.css": "/secon_website/static/css/main.5552d847.css",
+    "main.js": "/secon_website/static/js/main.86974e3a.js",
     "static/media/road.svg": "/secon_website/static/media/road.644cd663558eb0d6f79f57d8aea9f86f.svg",
     "static/media/roof.svg": "/secon_website/static/media/roof.1a7c2e49e47b24c958ebf12669f3ee5e.svg",
     "static/media/enclosure.svg": "/secon_website/static/media/enclosure.030b7376b011daa4e094fc68ad247bad.svg",
@@ -23,11 +23,11 @@
     "static/media/tick.svg": "/secon_website/static/media/tick.fe79fa2e6da3e709c495d5f2751c4be6.svg",
     "index.html": "/secon_website/index.html",
     "static/media/fb.svg": "/secon_website/static/media/fb.22a1f48eb942b032eeb6699f1ad0d13a.svg",
-    "main.4fd7203b.css.map": "/secon_website/static/css/main.4fd7203b.css.map",
-    "main.7d5dd4ac.js.map": "/secon_website/static/js/main.7d5dd4ac.js.map"
+    "main.5552d847.css.map": "/secon_website/static/css/main.5552d847.css.map",
+    "main.86974e3a.js.map": "/secon_website/static/js/main.86974e3a.js.map"
   },
   "entrypoints": [
-    "static/css/main.4fd7203b.css",
-    "static/js/main.7d5dd4ac.js"
+    "static/css/main.5552d847.css",
+    "static/js/main.86974e3a.js"
   ]
 }
