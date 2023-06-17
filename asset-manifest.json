@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/secon_website/static/css/main.fb1d0430.css",
-    "main.js": "/secon_website/static/js/main.942c4969.js",
+    "main.css": "/secon_website/static/css/main.4fd7203b.css",
+    "main.js": "/secon_website/static/js/main.7d5dd4ac.js",
     "static/media/road.svg": "/secon_website/static/media/road.644cd663558eb0d6f79f57d8aea9f86f.svg",
     "static/media/roof.svg": "/secon_website/static/media/roof.1a7c2e49e47b24c958ebf12669f3ee5e.svg",
     "static/media/enclosure.svg": "/secon_website/static/media/enclosure.030b7376b011daa4e094fc68ad247bad.svg",
@@ -13,20 +13,21 @@
     "static/media/about_1.svg": "/secon_website/static/media/about_1.5eb725518bd9125ab33baf5d7032d50e.svg",
     "static/media/revicons.eot": "/secon_website/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/secon_website/static/media/revicons.57fd05d4ae650374c8de.ttf",
-    "static/media/logo.svg": "/secon_website/static/media/logo.58f77ca9863ea9422f948a5b38a8b695.svg",
+    "static/media/logo.svg": "/secon_website/static/media/logo.5a118f95cf16cba80ed66fa509057f2b.svg",
     "static/media/revicons.woff": "/secon_website/static/media/revicons.e8746a624ed098489406.woff",
     "static/media/insta.svg": "/secon_website/static/media/insta.cf9a243deeba4add8a1540fae7cb179f.svg",
     "static/media/linkedin.svg": "/secon_website/static/media/linkedin.0b94c60e1aef3fe10e25614ccc03ad4c.svg",
+    "static/media/arrow.svg": "/secon_website/static/media/arrow.49552f033f81e6053b35deb5bc916fbe.svg",
     "static/media/twitter.svg": "/secon_website/static/media/twitter.d9256eafc792b4556cc9f3579d1763d6.svg",
-    "static/media/arrow.svg": "/secon_website/static/media/arrow.91eb262f59c26fe8805db62e53bf249b.svg",
+    "static/media/search.svg": "/secon_website/static/media/search.00d012f6c664033c4a69b6303934a63e.svg",
     "index.html": "/secon_website/index.html",
-    "static/media/tick.svg": "/secon_website/static/media/tick.da4547c7e3d97dee4d8b456631768eb9.svg",
+    "static/media/tick.svg": "/secon_website/static/media/tick.fe79fa2e6da3e709c495d5f2751c4be6.svg",
     "static/media/fb.svg": "/secon_website/static/media/fb.22a1f48eb942b032eeb6699f1ad0d13a.svg",
-    "main.fb1d0430.css.map": "/secon_website/static/css/main.fb1d0430.css.map",
-    "main.942c4969.js.map": "/secon_website/static/js/main.942c4969.js.map"
+    "main.4fd7203b.css.map": "/secon_website/static/css/main.4fd7203b.css.map",
+    "main.7d5dd4ac.js.map": "/secon_website/static/js/main.7d5dd4ac.js.map"
   },
   "entrypoints": [
-    "static/css/main.fb1d0430.css",
-    "static/js/main.942c4969.js"
+    "static/css/main.4fd7203b.css",
+    "static/js/main.7d5dd4ac.js"
   ]
 }
