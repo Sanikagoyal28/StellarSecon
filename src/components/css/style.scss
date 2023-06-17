@@ -52,7 +52,7 @@ $grid-breakpoints: (
     padding: 6px;
 }
 
-ul {
+.serviceUl {
     li {
         display: flex;
         align-items: center;
@@ -61,10 +61,11 @@ ul {
 
 .aboutImage {
     height: 500px;
+    // height:fit-content;
 
     img {
         background-size: cover;
-        height: 500px;
+        height: 100%;
         filter: brightness(40%);
         overflow-y: hidden;
     }
@@ -73,11 +74,13 @@ ul {
 .aboutContent {
     position: relative;
     bottom: 400px;
+    // height: fit-content;
 }
 
 .underline{
     height:4px;
-    width:340px;
+    width:100%;
+    // width:340px;
     background-color:#717171;
 }
 

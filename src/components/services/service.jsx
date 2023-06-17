@@ -44,13 +44,15 @@ function Service() {
         <Carousel image={image} />
 
         <div className="container my-3">
-            <h2 className="slideText heading mb-0" >{title}</h2>
-            <div className="underline mb-3" />
+            <div className="fitContent">
+                <h2 className="slideText heading mb-0" >{title}</h2>
+                <div className="underline mb-3" />
+            </div>
             <p className="overflow-hidden">{text}</p>
             {head != '' || head != undefined ? <h4 className="overflow-hidden">{head}</h4> : null}
             {text2 != '' || text2 != undefined ? <p className="overflow-hidden">{text2}</p> : null}
             <h4 className="overflow-hidden">{listHead}</h4>
-            <ul className="ps-0">
+            <ul className="ps-0 serviceUl">
                 {list.length > 0 ? list.map((l) => {
                     return <li className="mb-2"><img src={tick} className="tick me-2" />{l}</li>
                 }) : null}

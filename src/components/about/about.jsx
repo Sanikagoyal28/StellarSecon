@@ -3,25 +3,31 @@ import Navbar from "../utils/navbar"
 import Section1 from "../section1/section1"
 import img1 from "../../assets/image.jpg"
 import tick from "../../assets/tick.svg"
+import { useEffect } from "react"
 
 function About() {
+
+    useEffect(() => {
+        window.scroll(0, 0)
+    }, [])
+
     return <>
         <Navbar />
         <Section1 />
 
         <div className="container-fluid text-white">
-            <div className="row px-sm-5 px-md-0 px-lg-0">
+            <div className="row  px-md-0 px-lg-0">
                 <div className="col-lg-3 col-md-6 px-4 py-5" style={{ background: "linear-gradient(to bottom right, #000, #1f1f1f, #545454)" }}>
                     <img src={tick} />
                     <h2>Integrity</h2>
                     <p>Fundamental value of our organization is integrity. Every employee must adhere to mutual respect, strong moral, adequate transparency, high honesty, and ethical principles.  </p>
                 </div>
-                <div className="col-lg-3 col-md-6 px-4 py-5" style={{ background: "linear-gradient(to bottom right, #121212, #4a4949, #7f4d4d)" }}>
+                <div className="col-lg-3 col-md-6 px-4 py-5" style={{ background: "linear-gradient(to bottom right, #121212, #4a4949, #714444)" }}>
                     <img src={tick} />
                     <h2>Safety</h2>
                     <p>Safety begins from ourselves. Workplace safety, health and well-being of employees are our top priorities.</p>
                 </div>
-                <div className="col-lg-3 col-md-6 px-4 py-5" style={{ background: "linear-gradient(to bottom right, #391e1e, #441c1c, #a03931)" }}>
+                <div className="col-lg-3 col-md-6 px-4 py-5" style={{ background: "linear-gradient(to bottom right, #4a2929, #522222, #a03931)" }}>
                     <img src={tick} />
                     <h2>Quality</h2>
                     <p>We are committed to delivery non compromised quality products and services. Effective implementation of quality systems and customer services makes us eminent for our clients. </p>
@@ -55,8 +61,12 @@ function About() {
             </div>
 
             <div className="row px-5 py-5" >
-                <div className="col-md-5 ps-5 py-4"><h1 className="mx-5 fw-bolder heading mb-0" style={{ letterSpacing: "4px" }}>SECON</h1>
-                    <div className="underline" /></div>
+                <div className="col-md-5 ps-5 py-4">
+                    <div className="fitContent mx-5">
+                        <h1 className="fw-bolder d-inline heading mb-0" style={{ letterSpacing: "4px" }}>SECON</h1>
+                        <div className="underline" />
+                    </div>
+                </div>
                 <div className="col-md-6 py-4">
                     <p style={{ fontSize: "1.1rem" }}>SECON is dedicated to adopting health, safety, environment, and quality (HSEQ) management standards as an essential for sustainable business performance and continuous improvement while manufacturing GRP composite products and delivering services.
                         <br /><br />  Our Integrated Management System is internationally certified for compliance with </p>
@@ -65,23 +75,23 @@ function About() {
             </div>
         </div>
 
-        <div className="container-fluid text-white py-5 px-5" style={{ background: "#2b2b2b" }}>
-            <div className="row justify-content-center align-item-center">
-                <div className="col-md-3 d-flex flex-column align-items-center justify-content-center">
-                    <h3 className="mb-3">2000000</h3>
-                    <h5>Customers</h5>
+        <div className="container-fluid text-white py-5 px-5 px-sm-3" style={{ background: "#2b2b2b" }}>
+            <div className="row py-5">
+                <div className="col-md-3 col-sm-6 my-sm-5 my-3 d-flex flex-column align-items-center justify-content-center">
+                    <h2 className="mb-3 fs-sm-4 fw-bolder" style={{ letterSpacing: "2px" }}>2000000</h2>
+                    <h5 className="heading fs-sm-4">Customers</h5>
                 </div>
-                <div className="col-md-3 d-flex flex-column align-items-center justify-content-center">
-                    <h3>2000000</h3>
-                    <h5>Customers</h5>
+                <div className="col-md-3 col-sm-6 my-sm-5 my-3 d-flex flex-column align-items-center justify-content-center">
+                    <h2 className="mb-3 fs-sm-4 fw-bolder" style={{ letterSpacing: "2px" }}>2000000</h2>
+                    <h5 className="heading">Customers</h5>
                 </div>
-                <div className="col-md-3 d-flex flex-column align-items-center justify-content-center">
-                    <h3>2000000</h3>
-                    <h5>Customers</h5>
+                <div className="col-md-3 col-sm-6 my-sm-5 my-3 d-flex flex-column align-items-center justify-content-center">
+                    <h2 className="mb-3 fs-sm-4 fw-bolder" style={{ letterSpacing: "2px" }}>2000000</h2>
+                    <h5 className="heading">Customers</h5>
                 </div>
-                <div className="col-md-3 d-flex flex-column align-items-center justify-content-center">
-                    <h3>2000000</h3>
-                    <h5>Customers</h5>
+                <div className="col-md-3 col-sm-6 my-sm-5 my-3 d-flex flex-column align-items-center justify-content-center">
+                    <h2 className="mb-3 fs-sm-4 fw-bolder" style={{ letterSpacing: "2px" }}>2000000</h2>
+                    <h5 className="heading">Customers</h5>
                 </div>
             </div>
         </div>

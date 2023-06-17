@@ -56,20 +56,31 @@ body {
 
 .mainButton {
     background-image: linear-gradient(to right, #da4e5c, #8b2c26) !important;
+    border-radius: 14px !important;
 }
 
 .heading {
     background: linear-gradient(to right, #a03931, #dc7a84, #adacac);
+    background: linear-gradient(to right, #95342d, #de6672, #786d6d);
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
-.tick{
-    color:#444444;
-    width:20px;
-    background: linear-gradient(to right, #391e1e, #441c1c, #a03931);
+.tick {
+    color: #444444;
+    width: 20px;
+    background: linear-gradient(to right, #4a2929, #522222, #704444);
 }
 
+.fitContent{
+    width:fit-content;
+}
+
+li::marker{
+    font-size: 1.2rem;
+    font-weight: 500;
+
+}
 
 @media(max-width:1100px) {
     .image {
@@ -78,6 +89,12 @@ body {
 
     .prodCard {
         width: 18vw;
+    }
+}
+
+@media(max-width:1100px) and (min-width:1040px) {
+    .marketHead {
+        font-size: 1.1rem !important;
     }
 }
 
@@ -95,8 +112,9 @@ body {
     .prodCard {
         width: 26vw;
     }
-    .tick{
-        width:24px;
+
+    .tick {
+        width: 24px;
     }
 }
 
@@ -108,8 +126,9 @@ body {
     .prodCard {
         width: 30vw;
     }
-    .tick{
-        width:26px;
+
+    .tick {
+        width: 26px;
     }
 }
 
@@ -121,8 +140,9 @@ body {
     .prodCard {
         width: 48vw;
     }
-    .tick{
-        width:28px;
+
+    .tick {
+        width: 28px;
     }
 }
 
