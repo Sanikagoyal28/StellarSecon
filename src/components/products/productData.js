@@ -33,8 +33,8 @@ const product = [
                 image:""
             },
             {
-                title:"",
-                content:"",
+                title:"Safety Cabinet",
+                content:"SECON GRP Safety cabinets are compatible for indoor and outdoor application with weatherproof and antistatic properties. GRP cabinets are best suited to accommodate Safety gears like First Aid kits, safety masks and breathing apparatus. Safety cabinets are manufactured in UV resistant material and instantly recognizable colors and clear labeling. They are equipped with easy to remove locks or no locks to increase accessibility during an emergency situation. These cabinets are perfectly suited for Marine, Industrial and Commercial use.",
                 image:""
             },
             {
