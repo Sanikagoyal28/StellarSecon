@@ -1,3 +1,5 @@
+import image from "../../assets/image.jpg"
+
 const products = [
     {
         name:"GRP Enclosure",
@@ -55,12 +57,12 @@ const products = [
             {
                 title:"Instrument Enclosures",
                 content:"SECON Fiberglass product range includes instrument enclosures designed to safeguard single or multiple instruments. Manufactured in weatherproof grp material with anti-static properties along with corrosion resistant hardware. GRP instrument enclosures are compatible for indoor and outdoor application with UV resistant, and weatherproof properties.",
-                image:""
+                image: image
             },
             {
                 title:"Instrument Sunshade",
                 content:"SECON GRP sunshades or GRP Canopy protect instruments and field equipment from mechanical impact of falling objects, radiant solar temperature, blowing dust and rain. At the same time, sunshades reduce the cost of cooling systems needed. GRP offers strength, weight and corrosion resistance advantages for harsh operating environments. Mounts to a standard 2” pipe stand or options with several types of mounting arrangement kits. SECON offers both open and closed sunshades of the best quality. These can be customized to suit the client’s requirements.",
-                image:""
+                image: image
             }
         ]
     },
