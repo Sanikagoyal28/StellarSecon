@@ -10,11 +10,11 @@ function App() {
   return <>
     <BrowserRouter>
       <Routes>
-        <Route path="/" exact element={<Main/>} />
+        <Route path="/secon_website" exact element={<Main/>} />
         <Route path="/about" exact element={<About />} />
         <Route path="/services/:name" element={<Service />} />
         <Route path="/sectors/:sector" element={<Sectors />} />
-        <Route path="/product/:product" element={<Product />} />
+        {/* <Route path="/product/:product" element={<Product />} /> */}
       </Routes>
     </BrowserRouter>
   </>
