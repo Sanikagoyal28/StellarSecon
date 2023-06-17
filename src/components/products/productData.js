@@ -202,67 +202,70 @@ const product = [
         ]
     },
     {
-        name:"",
+        name:"Bespoke",
+        desc:"SECON have the expertise to offer concept designs, custom manufacturing and installation services for almost anything out of GRP. We have extensive experience in fabricating prototypes from various materials. Using the latest GRP Composite Plastic technology, SECON is growing to be the market leader in providing contract specific solutions for the Construction, Water, Leisure, Retail Appliance, Defense, Automotive and Power sectors. SECON fiberglass make different shapes and sizes with various finishes and thicknesses to suit the customer requirements.",
         items:[
             {
-                title:"",
+                title:"Bike Delievery Box",
                 content:"",
                 image:""
             },
             {
-                title:"",
+                title:"Car Wash Unit",
                 content:"",
                 image:""
             },
             {
-                title:"",
+                title:"Custom Shapes",
                 content:"",
                 image:""
             },
             {
-                title:"",
+                title:"Mannequins",
                 content:"",
                 image:""
             },
             {
-                title:"",
+                title:"Slides",
+                content:"",
+                image:""
+            },
+            {
+                title:"Signage",
                 content:"",
                 image:""
             }
         ]
     },
     {
-        name:"",
+        name:"Pultruded Products",
+        desc:"SECON supply pultruded profiles which is the most cost-effective method for the production of fiber reinforced composite structures. GRP Pultruded profiles brings high performance composites down to commercial products such as light-weight corrosion free structures, electrical non-conductive systems, off-shore platforms and many other innovative new products. Our pultrusion products range include round rods, rectangles, squares, ‘I’ sections, ‘T’ sections, angles, channels, dog bone profiles, dove tail sticks and spacers, corner profiles, hallow sections, etc. These profiles have generated exciting results in bridges, buildings and other structures. ",
         items:[
             {
-                title:"",
+                title:"Ladders",
                 content:"",
                 image:""
             },
             {
-                title:"",
+                title:"Staircase",
                 content:"",
                 image:""
             },
             {
-                title:"",
+                title:"Platforms",
                 content:"",
                 image:""
             },
             {
-                title:"",
-                content:"",
-                image:""
-            },
-            {
-                title:"",
+                title:"Gratings",
                 content:"",
                 image:""
             }
         ]
     },
     {
-        name:"",
+        name:"Resins and Fibres",
+        desc:"SECON supply broad range of composite manufacturing like general-purpose and high-performance grades of unsaturated polyester and vinyl ester resins, gelcoats, pigments and low-profile additives for the plastics industry.'<br/> These products provide fabricated composite products with an array of functional properties including corrosion resistance, fire retardance, ultraviolet resistance, water and chemical resistance, high mechanical properties, thermal and electrical insulation, impact and scratch resistance and high strength-to-weight ratios '<br/>' GRP with higher mouldability, thermal efficiency, non-electrical conductivity, corrosion resistance, low maintenance, higher strength to weight proportion makes this as a material of choice for broad applications.",
         items:[
             {
                 title:"",
