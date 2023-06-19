@@ -59,42 +59,11 @@ $grid-breakpoints: (
     }
 }
 
-.aboutImage {
-    height: 500px;
-    // height:fit-content;
-
-    img {
-        background-size: cover;
-        height: 100%;
-        filter: brightness(40%);
-        overflow-y: hidden;
-    }
-}
-
-.aboutContent {
-    position: relative;
-    bottom: 400px;
-    // height: fit-content;
-}
-
 .underline{
     height:4px;
     width:100%;
     // width:340px;
     background-color:#717171;
-}
-
-@media(max-width:950px) {
-    .aboutImage {
-        height: 540px;
-
-        img {
-            height: 540px;
-        }
-    }
-    .aboutContent{
-        bottom:450px;
-    }
 }
 
 @media(max-width:650px){
@@ -110,6 +79,7 @@ $grid-breakpoints: (
 @media(max-width:550px) {
     .slideText {
         font-size: 3.5rem;
+        line-height:76px !important;
     }
 
     .underline{

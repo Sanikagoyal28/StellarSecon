@@ -49,7 +49,7 @@ function Product() {
                                 <p className="overflow-hidden">{l.content}</p>
                             </div>
                         </div>
-                        <div className="col-md-5 px-0 col-sm-6 ms-lg-5 ms-md-1 ms-sm-0">
+                        <div className="d-flex flex-column justify-content-center align-items-center col-md-5 px-0 col-sm-10 ms-lg-5 ms-md-1 ms-sm-0">
                             <img src={l.image} width="360px" />
                         </div>
                     </div>
