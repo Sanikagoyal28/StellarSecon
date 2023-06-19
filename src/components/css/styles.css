@@ -63,12 +63,6 @@ body {
     -webkit-text-fill-color: transparent;
 }
 
-.tick {
-    color: #444444;
-    width: 20px;
-    background: linear-gradient(to right, #4a2929, #522222, #704444);
-}
-
 .fitContent {
     width: fit-content;
 }
@@ -562,19 +556,11 @@ nav .content .links {
     .prodCard {
         width: 36vw;
     }
-
-    .tick {
-        width: 26px;
-    }
 }
 
 @media(max-width:550px) {
     .image {
         height: 730px;
-    }
-
-    .tick {
-        width: 28px;
     }
 
     .serviceCard {

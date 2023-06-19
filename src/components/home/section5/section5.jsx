@@ -6,8 +6,11 @@ import fire from "../../../assets/fire.svg"
 import instr from "../../../assets/instrum.svg"
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import { useNavigate } from "react-router"
 
 function Section5() {
+
+    const navigate = useNavigate()
 
     const responsive = {
         superLargeDesktop: {
@@ -27,7 +30,7 @@ function Section5() {
             breakpoint: { max: 700, min: 0 },
             items: 2
         },
-        small:{
+        small: {
             breakpoint: { max: 500, min: 0 },
             items: 1
         }
@@ -38,17 +41,17 @@ function Section5() {
             <h2 className="bg-transparent blackText text-white mb-3">Products</h2>
             {/* <div className="productFlex"> */}
             <Carousel responsive={responsive} className="mb-5">
-                <ProdCard head="Enclosures" image={Enclosure}  />
-                <ProdCard head="Fire and Safety" image={fire} />
-                <ProdCard head="Instrumentation" image={instr} />
-                <ProdCard head="Roofing Products" image={Roof} />
-                <ProdCard head="Road and Infrastructures" image={Road} />
-                <ProdCard head="Architectural Features" />
-                <ProdCard head="Planters" />
-                <ProdCard head="Bespoke" />
-                <ProdCard head="Pultruded Products" />
-                <ProdCard head="Resins and Fibres" />
-                </Carousel>
+                <ProdCard head="Enclosures" image={Enclosure} handleClick={() => { navigate("/products/GRP Enclosure") }} />
+                <ProdCard head="Fire and Safety" image={fire} handleClick={() => { navigate("/products/Fire and Safety") }} />
+                <ProdCard head="Instrumentation" image={instr} handleClick={() => { navigate("/products/Instrumentation Products") }} />
+                <ProdCard head="Roofing Products" image={Roof} handleClick={() => { navigate("/products/Roofing Products") }} />
+                <ProdCard head="Road and Infrastructures" image={Road} handleClick={() => { navigate("/products/Road and Infrastructure") }} />
+                <ProdCard head="Architectural Features" handleClick={() => { navigate("/products/Architectural Features") }} />
+                <ProdCard head="Planters" handleClick={() => { navigate("/products/Planters") }} />
+                <ProdCard head="Bespoke" handleClick={() => { navigate("/products/Bespoke") }} />
+                <ProdCard head="Pultruded Products" handleClick={() => { navigate("/products/Pultruded Products") }} />
+                <ProdCard head="Resins and Fibres" handleClick={() => { navigate("/products/Resins and Fibres") }} />
+            </Carousel>
             {/* </div> */}
         </div>
     </>

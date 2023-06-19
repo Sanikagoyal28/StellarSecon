@@ -24,21 +24,21 @@ function Navbar() {
                             <input type="checkbox" id="show-features" />
                             <label for="show-features">Products</label>
                             <ul>
-                                <li><Link to="#">Enclosures</Link></li>
-                                <li><Link to="#">Fire and Safety</Link></li>
-                                <li><Link to="#">Instrumentation</Link></li>
-                                <li><Link to="#">Roofing Products</Link></li>
-                                <li><Link to="#">Road and Infrastructures</Link></li>
+                                <li><Link to="/products/GRP Enclosure">Enclosures</Link></li>
+                                <li><Link to="/products/Fire and Safety">Fire and Safety</Link></li>
+                                <li><Link to="/products/Instrumentation Products">Instrumentation</Link></li>
+                                <li><Link to="/products/Roofing Products">Roofing Products</Link></li>
+                                <li><Link to="/products/Road and Infrastructure">Road and Infrastructures</Link></li>
                                 <li>
                                     <Link className="desktop-link">More Items</Link>
                                     <input type="checkbox" id="show-items" />
                                     <label for="show-items">More Items</label>
                                     <ul>
-                                        <li><Link to="#">Architectural Features</Link></li>
-                                        <li><Link to="#">Planters</Link></li>
-                                        <li><Link to="#">Bespoke</Link></li>
-                                        <li><Link to="#">Pultruded Products</Link></li>
-                                        <li><Link to="#">Resins and Fibres</Link></li>
+                                        <li><Link to="/products/Architectural Features">Architectural Features</Link></li>
+                                        <li><Link to="/products/Planters">Planters</Link></li>
+                                        <li><Link to="/products/Bespoke">Bespoke</Link></li>
+                                        <li><Link to="/products/Pultruded Products">Pultruded Products</Link></li>
+                                        <li><Link to="/products/Resins and Fibres">Resins and Fibres</Link></li>
                                     </ul>
                                 </li>
                             </ul>
