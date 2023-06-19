@@ -16,13 +16,17 @@ export default function Main() {
 
 
     return <>
-        <Navbar />
-        <Section1 />
-        <Section2 />
-        <Section3 />
-        <Section4 />
-        <Section5 />
-        <Section6 />
-        <Footer />
+        <div className='bodyWrapper'>
+            <Navbar />
+            <div style={{ flexGrow: 1 }}>
+                <Section1 />
+                <Section2 />
+                <Section3 />
+                <Section4 />
+                <Section5 />
+                <Section6 />
+            </div>
+            <Footer />
+        </div>
     </>
 }

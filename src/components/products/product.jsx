@@ -30,7 +30,9 @@ function Product() {
     }, [])
 
     return <>
+     <div className="bodyWrapper">
         <Navbar />
+        <div style={{ flexGrow: 1 }}>
         <div className="container-lg my-5">
             <div className="fitContent mt-5 mb-4">
                 <h2 className="slideText heading mb-0" >{title}</h2>
@@ -54,7 +56,9 @@ function Product() {
                 }) : null}
             </ul>
         </div>
+        </div>
         <Footer />
+        </div>
     </>
 }
 

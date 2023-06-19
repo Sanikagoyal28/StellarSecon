@@ -7,7 +7,7 @@ import arrow from "../../assets/arrow.svg"
 
 function Footer() {
     return <>
-        <div className="container-fluid bg-dark text-white pt-5 px-5 px-sm-3 px-md-4">
+        <div className="container-fluid bg-dark text-white pt-5 px-5 px-sm-3 px-md-4 footer" >
             <div className="row pb-5 ms-4">
                 <div className="col-lg-3 col-md-3 mx-4 ms-md-0 me-md-2 mx-sm-0 mb-sm-4 mx-xs-0">
                     <img src={logo} className="my-3" />
