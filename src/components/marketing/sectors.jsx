@@ -28,6 +28,10 @@ function Sectors() {
         }
     }, [sector])
 
+    useEffect(() => {
+        window.scroll(0, 0)
+    }, [])
+
     return <>
         <Navbar />
         <Carousel image={image} />
