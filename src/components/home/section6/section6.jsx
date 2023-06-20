@@ -13,7 +13,7 @@ function Section6() {
                     <ProjCard head="Red Line - South" status="Completed" year="2019" scope="In-situ GRP lamination and Manufacturing of gully baskets" />
                 </div>
                 <div className="col-md-5 col-lg-4">
-                    <ProjCard head="Al Bayt Stadium, Fifa stadium 2022" status="Completed" year="2019" scope="Manufacturing of gully baskets and Sealing plates" />
+                    <ProjCard head="Al Bayt Stadium, FIFA stadium 2022" status="Completed" year="2019" scope="Manufacturing of gully baskets and Sealing plates" />
                 </div>
                 <div className="col-md-5 col-lg-4">
                     <ProjCard head="Supply & Installation of Mockup Steel Shades with GRP Units for Public Pathways" status="Completed" year="2019" scope="Design, Engineering, Manufacture & Installation of GRP Works." />

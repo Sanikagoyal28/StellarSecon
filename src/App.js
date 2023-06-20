@@ -5,16 +5,18 @@ import About from "./components/about/about";
 import Sectors from "./components/marketing/sectors";
 import Main from "./components/home/main";
 import Product from "./components/products/product";
+import Project from "./components/projects/project";
 
 function App() {
   return <>
     <BrowserRouter>
       <Routes>
-        <Route path="/secon_website" exact element={<Main/>} />
+        <Route path="/secon_website" exact element={<Main />} />
         <Route path="/about" exact element={<About />} />
         <Route path="/services/:name" element={<Service />} />
         <Route path="/sectors/:sector" element={<Sectors />} />
         <Route path="/products/:product" element={<Product />} />
+        <Route path="/project" element={<Project />} />
       </Routes>
     </BrowserRouter>
   </>
