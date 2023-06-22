@@ -47,27 +47,10 @@ function About() {
                         <div className="col-lg-6 col-md-6 mt-md-5 mt-sm-2 px-5 pt-5 pb-sm-5 aColumn1 overflow-hidden">
                             {/* <h3 className="my-5">Secon</h3> */}
                             <p>SECON (Systems Engineers & Contractors) is a Glass Reinforced Polyester (GRP) product manufacturing company established in 2013 serving businesses and projects in Qatar and internationally.
-                                SECON focus on providing industrial composite products and services with unique designs, reliable manufacturing and delivering at high precision and quality. SECON caters comprehensive composite solutions to various industries such as Oil & Gas, Petrochemical, Energy, Road, Utility, Infrastructure, Sewage, Marine, Automobile, Landscaping and Agriculture.
-                            </p><br />
-                            <p style={{ fontSize: "1.1rem" }}>SECON is dedicated to adopting health, safety, environment, and quality (HSEQ) management standards as an essential for sustainable business performance and continuous improvement while manufacturing GRP composite products and delivering services.
-                                <br /><br />  Our Integrated Management System is internationally certified for compliance with </p>
-
-                            <div className="row overflow-hidden" >
-                                <div className="card col-md-3 col-sm-11 mb-sm-3 mx-3 py-2 border border-3 border-primary" style={{ background: "#f2b8becc" }}>
-                                    <h5 className="overflow-hidden">ISO 9001 : 2015</h5>
-                                    <h6 className="overflow-hidden">Quality Management System</h6>
-                                </div>
-                                <div className="card col-md-3 col-sm-11 mb-sm-3 mx-3 py-2 border border-3 border-primary" style={{ background: "#eab2b7cc" }}>
-                                    <h5 className="overflow-hidden">ISO 14001: 2015</h5>
-                                    <h6 className="overflow-hidden">Environmental Management</h6>
-                                </div>
-                                <div className="card col-md-3 col-sm-11 mb-sm-3 mx-3 py-2 border border-3 border-primary" style={{ background: "#f2b8becc" }}>
-                                    <h5 className="overflow-hidden">ISO 45001 : 2018</h5>
-                                    <h6 className="overflow-hidden">Occupational Health and Safety Management</h6>
-                                </div>
-                            </div>
+                             <br/><br/>   SECON focus on providing industrial composite products and services with unique designs, reliable manufacturing and delivering at high precision and quality. SECON caters comprehensive composite solutions to various industries such as Oil & Gas, Petrochemical, Energy, Road, Utility, Infrastructure, Sewage, Marine, Automobile, Landscaping and Agriculture.
+                            </p>
                         </div>
-                        <div className="col-lg-6 col-md-6 text-white pb-0 px-0 bg-transparent overflow-hidden aColumn2">
+                        <div className="col-lg-6 col-md-6 text-white pb-0 px-0 py-0 bg-transparent overflow-hidden aColumn2">
                             <img src={img1} width="100%" className="mb-n5" />
                             <div className="aboutContent overflow-hidden mx-5 my-5">
                                 <h3 className="mt-4 mb-3 overflow-hidden">VISION</h3>
@@ -75,6 +58,26 @@ function About() {
                                 <h3 className="mt-4 mb-3 overflow-hidden">MISSION</h3>
                                 <p className="mb-5 col-md-9">To offer composite products and services, meeting client expectation with high quality, keeping health and safety standards, growing through innovation, and profitability to every stakeholder. </p>
                             </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="container py-5">
+                    <p style={{ fontSize: "1.1rem" }}>SECON is dedicated to adopting health, safety, environment, and quality (HSEQ) management standards as an essential for sustainable business performance and continuous improvement while manufacturing GRP composite products and delivering services.
+                        <br /><br />  Our Integrated Management System is internationally certified for compliance with : </p>
+
+                    <div className="row overflow-hidden d-flex justify-content-center align-items-center" >
+                        <div className="card col-md-3 col-sm-11 mb-sm-3 mx-3 py-5 px-3 border border-3 border-primary" style={{ background: "#f2b8becc", height:"180px" }}>
+                            <h5 className="overflow-hidden">ISO 9001 : 2015</h5>
+                            <h6 className="overflow-hidden">Quality Management System</h6>
+                        </div>
+                        <div className="card col-md-3 col-sm-11 mb-sm-3 mx-3 py-5 px-3 border border-3 border-primary" style={{ background: "#eab2b7cc", height:"180px" }}>
+                            <h5 className="overflow-hidden">ISO 14001: 2015</h5>
+                            <h6 className="overflow-hidden">Environmental Management</h6>
+                        </div>
+                        <div className="card col-md-3 col-sm-11 mb-sm-3 mx-3 py-5 px-3 border border-3 border-primary" style={{ background: "#f2b8becc", height:"180px" }}>
+                            <h5 className="overflow-hidden">ISO 45001 : 2018</h5>
+                            <h6 className="overflow-hidden">Occupational Health and Safety Management</h6>
                         </div>
                     </div>
                 </div>

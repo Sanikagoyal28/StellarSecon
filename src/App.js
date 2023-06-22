@@ -6,6 +6,7 @@ import Sectors from "./components/marketing/sectors";
 import Main from "./components/home/main";
 import Product from "./components/products/product";
 import Project from "./components/projects/project";
+import Contact from "./components/contact/contact";
 
 function App() {
   return <>
@@ -16,7 +17,8 @@ function App() {
         <Route path="/services/:name" element={<Service />} />
         <Route path="/sectors/:sector" element={<Sectors />} />
         <Route path="/products/:product" element={<Product />} />
-        <Route path="/project" element={<Project />} />
+        <Route path="/project/:project" element={<Project />} />
+        <Route path="/contact" exact element={<Contact />} />
       </Routes>
     </BrowserRouter>
   </>

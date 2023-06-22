@@ -4,7 +4,7 @@ function Section2() {
     return <> 
         <div className="container-lg py-5 px-md-3 px-lg-0">
             <div className="row ">
-                <div className="col-lg-5 col-md-5 col-sm-12 me-4 hColumn1"  >
+                <div className="col-lg-5 col-md-5 col-sm-12 me-4 hColumn1 overflow-hidden"  >
                     <img className="shadow mb-sm-4" src={about} />
                 </div>
                 <div className="col-lg-6 col-md-6 col-sm-11 hColumn2"  >

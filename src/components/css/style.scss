@@ -23,17 +23,17 @@ $grid-breakpoints: (
 );
 
 .orangeText {
-    @include text(1rem, 500, "Glacial Indifference", $primaryColor )
+    @include text(1rem, 500, "Lora", $primaryColor )
 }
 
 .blackText {
-    @include text(2.3rem, 700, "Glacial Indifference", "#000");
+    @include text(2.3rem, 700, "Lora", "#000");
     letter-spacing: 2px;
     line-height: 44px;
 }
 
 .slideText {
-    @include text(4rem, 700, "Glacial Indifference", "#fff");
+    @include text(4rem, 700, "Lora", "#fff");
 }
 
 .ulList {

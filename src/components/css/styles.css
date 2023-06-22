@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700&family=Heebo:wght@300;400;500&display=swap');
 @import url('https://fonts.cdnfonts.com/css/glacial-indifference-2');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&family=Playfair+Display:wght@400;500;600&family=Roboto+Slab:wght@300;500;600;700&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     overflow-x: hidden;
-    font-family: "Glacial Indifference", sans-serif;
+    font-family: "Lora", sans-serif;
     z-index: 1;
 }
 
@@ -78,13 +79,12 @@ li::marker {
     height: 650px;
 }
 
-.aColumn1 {
-    height: 640px;
+.aColumn1{
+    height: 400px;
 }
 
 .aColumn2 {
-    height: 690px;
-    overflow: hidden;
+    height: 450px;
 }
 
 .aColumn2 img {
@@ -96,11 +96,15 @@ li::marker {
 
 .aboutContent {
     position: relative;
-    bottom: 540px;
+    bottom: 380px;
 }
 
 .serviceCard {
     height: 385px !important;
+}
+
+.projCard {
+    height: 190px !important;
 }
 
 /* for fixing footer */
@@ -353,27 +357,17 @@ nav .content .links {
     .hColumn1 {
         height: 750px;
     }
-
-    .aColumn1 {
-        height: 670px;
-    }
-
-    .aColumn2 {
-        height: 720px;
-    }
 }
 
 @media(max-width:1280px) {
     .serviceCard {
         height: 420px !important;
     }
+}
 
-    .aColumn1 {
-        height: 710px;
-    }
-
-    .aColumn2 {
-        height: 760px;
+@media(max-width:1200px) {
+    .projCard {
+        height: 240px !important;
     }
 }
 
@@ -382,13 +376,13 @@ nav .content .links {
         height: 460px !important;
     }
 
-    .aColumn1 {
+    /* .aColumn1 {
         height: 800px;
     }
 
     .aColumn2 {
         height: 850px;
-    }
+    } */
 }
 
 @media(max-width:1100px) {
@@ -422,33 +416,21 @@ nav .content .links {
     }
 
     .aColumn1 {
-        height: 880px;
+        height: 450px;
     }
 
     .aColumn2 {
-        height: 930px;
+        height: 500px;
     }
 
     .aboutContent {
-        bottom: 700px;
+        bottom: 420px;
     }
 }
 
 @media(max-width:950px) {
     .image {
         height: 620px;
-    }
-
-    .aColumn1 {
-        height: 920px;
-    }
-
-    .aColumn2 {
-        height: 970px;
-    }
-
-    .aboutContent {
-        bottom: 850px;
     }
 }
 
@@ -465,17 +447,15 @@ nav .content .links {
     }
 
     .aColumn1 {
-        height: 1200px;
-        padding-top: 8px !important;
-        margin-top: 0 !important;
+       height:500px;
     }
 
     .aColumn2 {
-        height: 1250px;
+        height: 550px;
     }
 
     .aboutContent {
-        bottom: 1100px;
+        bottom: 480px;
     }
 }
 
@@ -496,24 +476,6 @@ nav .content .links {
 
     .serviceCard {
         height: 470px !important;
-    }
-
-    .aColumn1 {
-        height: 1250px;
-    }
-
-    .aColumn2 {
-        height: 1300px;
-    }
-}
-
-@media(max-width:810px) {
-    .aColumn1 {
-        height: 1300px;
-    }
-
-    .aColumn2 {
-        height: 1350px;
     }
 }
 
@@ -589,7 +551,7 @@ nav .content .links {
         height: 500px;
     }
 
-    .aboutContent{
+    .aboutContent {
         bottom: 420px;
     }
 }
