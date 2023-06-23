@@ -29,7 +29,7 @@ function Section4() {
 
     return <>
         <div className="container-fluid px-5 py-5 F6F6F6">
-            <h2 className="bg-transparent blackText">Market Sectors</h2>
+            <h2 className="bg-transparent blackText heading-animate">Market Sectors</h2>
             <div className="row">
                 <Carousel responsive={responsive}>
                     <MarketCard text="Oil and Gas" handleClick={() => { navigate("/sectors/Oil and Gas") }} />

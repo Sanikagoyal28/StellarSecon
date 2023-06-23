@@ -4,7 +4,7 @@ import ProjCard from "./projCard"
 function Section6() {
     return <>
         <div className="container-fluid px-5 py-5 F6F6F6">
-            <h2 className="blackText">Portfolio Projects</h2>
+            <h2 className="blackText heading-animate">Portfolio Projects</h2>
             <div className="row align-item-center justify-content-center">
                 <div className="col-md-5 col-lg-4">
                     <ProjCard head="Umm Al Houl Power(UHP)" status="Completed" year="2018" scope="Supply and Installation GRP gratings & Chequered plates" />

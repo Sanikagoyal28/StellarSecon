@@ -12,6 +12,7 @@
 $primary : #C23947;
 $primaryColor : #C23947;
 $enable-negative-margins: true;
+$carousel-transition-duration: 0.2s;
 
 $grid-breakpoints: (
     xs: 0,
@@ -23,17 +24,17 @@ $grid-breakpoints: (
 );
 
 .orangeText {
-    @include text(1rem, 500, "Lora", $primaryColor )
+    @include text(1rem, 500, "Heebo", $primaryColor )
 }
 
 .blackText {
-    @include text(2.3rem, 700, "Lora", "#000");
+    @include text(2.5rem, 700, "Barlow", "#000");
     letter-spacing: 2px;
     line-height: 44px;
 }
 
 .slideText {
-    @include text(4rem, 700, "Lora", "#fff");
+    @include text(4rem, 700, "Heebo", "#fff");
 }
 
 .ulList {

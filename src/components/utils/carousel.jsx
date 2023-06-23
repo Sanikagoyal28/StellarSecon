@@ -26,8 +26,8 @@ function Carousel(props) {
                 </div>
             </div>
             <button className="carousel-control-prev bg-transparent" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                <span className="carousel-control-prev-icon bg-transparent" aria-hidden="true"></span>
-                <span className="visually-hidden bg-transparent">Previous</span>
+                <span className="carousel-control-prev-icon bg-transparent" style={{left:"-20px"}} aria-hidden="true"></span>
+                <span className="visually-hidden bg-transparent" style={{left:"-20px"}} >Previous</span>
             </button>
             <button className="carousel-control-next bg-transparent" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
                 <span className="carousel-control-next-icon bg-transparent" aria-hidden="true"></span>

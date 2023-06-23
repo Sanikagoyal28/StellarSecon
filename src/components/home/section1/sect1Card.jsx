@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Sect1Card(props) {
     return <>
-        <div className='container bg-transparent text-white px-5 py-5' style={{ position: "absolute", top: "90px" }}>
+        <div className='container bg-transparent text-white px-5 py-5 ms-md-5 ms-lg-5 ms-xl-5 ms-sm-3' style={{ position: "absolute", top: "90px" }}>
             <div className='row bg-transparent'>
                 <div className='col-sm-11 col-md-9 col-lg-7 bg-transparent'>
                     <p className='bg-transparent mb-4 slideText' style={{lineHeight:"84px"}}>{props.firstText}</p>

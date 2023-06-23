@@ -38,7 +38,7 @@ function Section5() {
 
     return <>
         <div className="container-fluid px-5 py-5" style={{ background: "linear-gradient(to bottom right, #89322b, #dc7a84, #9b9b9b)" }} >
-            <h2 className="bg-transparent blackText text-white mb-3">Products</h2>
+            <h2 className="bg-transparent blackText mb-3 heading-animate">Products</h2>
             {/* <div className="productFlex"> */}
             <Carousel responsive={responsive} className="mb-5">
                 <ProdCard head="Enclosures" image={Enclosure} handleClick={() => { navigate("/products/GRP Enclosure") }} />

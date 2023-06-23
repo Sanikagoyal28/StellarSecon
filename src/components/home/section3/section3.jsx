@@ -3,11 +3,31 @@ import ServiceCard from "./serviceCard";
 
 function Section3() {
 
+    window.addEventListener("scroll", animate)
+
+    function animate() {
+        service()
+    }
+
+    function service() {
+        var cards = document.getElementsByClassName("service-animate")[0]
+
+        var windowHeight = window.innerHeight;
+        var revealTop = cards.getBoundingClientRect().top
+
+        console.log(revealTop, windowHeight)
+
+        if (revealTop < windowHeight + 20)
+            cards.classList.add("active")
+        else
+            cards.classList.remove("active")
+    }
+
     const navigate = useNavigate()
     return <>
         <div className="container-fluid px-5 py-5" style={{ backgroundColor: "#f1f0f0" }}>
-            <h2 className="bg-transparent blackText">Our Services</h2>
-            <div className="row justify-content-center">
+            <h2 className="bg-transparent blackText heading-animate">Our Services</h2>
+            <div className="row justify-content-center service-animate">
                 <div className=" col-md-4 col-lg-3">
                     <ServiceCard background="linear-gradient(to bottom right, #000, #1f1f1f, #545454)" head="Manufacturing" handleClick={() => { navigate("/services/Manufacturing") }} text="SECON manufactures wide range of GRP products to cater various industries such as Oil & Gas, Petrochemical, Energy, Road, Utility, Infrastructure, Sewage, Marine, Automobile, Landscaping and Agriculture. " />
                 </div>

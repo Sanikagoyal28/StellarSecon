@@ -54,15 +54,16 @@ function Navbar() {
                                 <li><Link to="/services/GRP Piping">GRP Piping</Link></li>
                             </ul>
                         </li>
+                        
                         <li><Link to="#" className="desktop-link">Projects</Link>
                             <input type="checkbox" id="show-projects" />
                             <label for="show-projects">Projects</label>
                             <ul>
-                                <li><Link to="#">Umm Al Houl Power</Link></li>
-                                <li><Link to="#">Red Line - South</Link></li>
-                                <li><Link to="#">Al Bayt Stadium</Link></li>
-                                <li><Link to="#">Mockup Steel Shades</Link></li>
-                                <li><Link to="#">Corniche park walkway</Link></li>
+                                <li><Link to="/project/Umm Al Houl Power (UHP)">Umm Al Houl Power</Link></li>
+                                <li><Link to="/project/Red Line - South">Red Line - South</Link></li>
+                                <li><Link to="/project/Al Bayt Stadium, FIFA stadium 2022">Al Bayt Stadium</Link></li>
+                                <li><Link to="/project/Supply & Installation of Mockup Steel Shades with GRP Units for Public Pathways">Mockup Steel Shades</Link></li>
+                                <li><Link to="/project/Corniche park walkway enhancement floral arch">Corniche park walkway</Link></li>
                             </ul>
                         </li>
                         <li>
@@ -78,8 +79,8 @@ function Navbar() {
                                 <li><Link to="/sectors/Facility Management">Facility Management</Link></li>
                                 <li>
                                     <Link to="#" className="desktop-link">More Items</Link>
-                                    <input type="checkbox" id="show-items" />
-                                    <label for="show-items">More Items</label>
+                                    <input type="checkbox" id="show-sector-items" />
+                                    <label for="show-sector-items">More Items</label>
                                     <ul>
                                         <li><Link to="/sectors/Utilities and Sewage">Utilities / Sewage</Link></li>
                                         <li><Link to="/sectors/Storage and Transportation">Storage / Transportation</Link></li>
@@ -91,7 +92,7 @@ function Navbar() {
                                 </li>
                             </ul>
                         </li>
-                        <li><Link to="#">Contact Us</Link></li>
+                        <li><Link to="/contact">Contact Us</Link></li>
                     </ul>
                 </div>
             </nav>
