@@ -56,7 +56,7 @@ body {
 
 .prodCard {
     width: 16vw;
-    height: 200px !important;
+    height: 220px !important;
 }
 
 .mainButton {
@@ -106,7 +106,9 @@ li::marker {
 }
 
 .serviceCard {
+    width:100% !important;
     height: 385px !important;
+    border-radius :0px !important;
 }
 
 .projCard {
@@ -626,34 +628,30 @@ nav .content .links {
 .home-about-2,
 .home-about-3 {
     opacity: 0;
+    position: relative;
+    top: 80px;
+    transition: all 1s ease-in-out
 }
 
 .home-about-1.active,
 .home-about-2.active,
 .home-about-3.active {
-    animation: about-content-animate .75s forwards
-}
-
-@keyframes about-content-animate {
-    from {
-        transform: translateY(30px)
-    }
-
-    to {
-        opacity: 1;
-        transform: none;
-    }
+    opacity: 1;
+    top: 0;
 }
 
 .heading-animate {
     text-transform: uppercase;
-    color: rgba(0, 0, 0, 0.5);
-    background: -webkit-gradient(linear, left top, right top, from(#000), to(#e6e6e6), color-stop(0.8, #000)) no-repeat;
-    background: gradient(linear, left top, right top, from(#000), to(#000), color-stop(0.8, #000)) no-repeat;
+    /* color: rgba(0, 0, 0, 0.5); */
+    color: rgba(132, 4, 4, 0.7);
+    /* background: -webkit-gradient(linear, left top, right top, from(#000), to(#e6e6e6), color-stop(0.8, #000)) no-repeat; */
+    /* background: gradient(linear, left top, right top, from(#000), to(#000), color-stop(0.8, #000)) no-repeat; */
+    background: -webkit-gradient(linear, left top, right top, from(#6b0404), to(#e6e6e6), color-stop(0.8, #522222)) no-repeat;
+    background: gradient(linear, left top, right top, from(#522222), to(#522222), color-stop(0.8, #522222)) no-repeat;
     background-size: 100px 100%;
     -webkit-background-clip: text;
     background-clip: text;
-    animation: head-animate 2.8s infinite;
+    animation: head-animate 3.5s infinite;
 }
 
 @keyframes head-animate {
@@ -666,30 +664,13 @@ nav .content .links {
     }
 }
 
-.service-button {
-    animation: service-button-animate 2s infinite ease-in-out;
+.service-button:hover {
+    background-image: linear-gradient(to right,#878787,#b2b2b2, #b7b7b7) !important;
+    background-color: #fff !important;
+    background-size: 100%, 50% !important;
+    color: #000 !important;
+    border: 0.5px solid #000 !important;
+    transform: scale(0.97);
+    transition: all 300ms ease-in-out;
 }
 
-@keyframes service-button-animate {
-
-    40% {
-        transform: scale(0.75);
-    }
-
-    70% {
-        transform: scale(0.9);
-    }
-
-    100% {
-        transform: scale(1);
-    }
-}
-
-/* .service-text {
-     opacity: 0; 
-    transition: all 1s ease;
-}
-
-.service-text.active {
-    opacity: 1;
-} */

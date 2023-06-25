@@ -1,3 +1,4 @@
+import { useNavigate } from "react-router"
 import about from "../../assets/about_1.svg"
 
 function Section2() {
@@ -23,16 +24,18 @@ function Section2() {
         else
             text1.classList.remove("active")
 
-        if (revealTop2 < windowHeight - 100)
+        if (revealTop2 < windowHeight )
             text2.classList.add("active")
         else
             text2.classList.remove("active")
 
-        if (revealTop3 < windowHeight - 40)
+        if (revealTop3 < windowHeight + 40)
             text3.classList.add("active")
         else
             text3.classList.remove("active")
     }
+
+    const navigate = useNavigate()
 
     return <>
         <div className="container-lg py-5 px-md-3 px-lg-0">
@@ -46,7 +49,7 @@ function Section2() {
                     <p className="fs-5 fw-normal lh-base home-about-3" style={{ opacity: 0.8 }}>SECON (Systems Engineers & Contractors) is a Glass Reinforced Polyester (GRP) product manufacturing company established in 2013 serving businesses and projects in Qatar and internationally.
                         SECON focus on providing industrial composite products and services with unique designs, reliable manufacturing and delivering at high precision and quality. SECON caters comprehensive composite solutions to various industries such as Oil & Gas, Petrochemical, Energy, Road, Utility, Infrastructure, Sewage, Marine, Automobile, Landscaping and Agriculture.
                     </p>
-                    <button className="btn btn-primary px-4 py-3 text-white mainButton">Read More</button>
+                    <button className="btn btn-primary px-4 py-3 text-white mainButton about-btn-animate" onClick={()=>{navigate("/about")}}>Read More</button>
                 </div>
             </div>
         </div>

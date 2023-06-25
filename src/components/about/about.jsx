@@ -35,7 +35,7 @@ function About() {
             <div style={{ flexGrow: 1 }}>
                 <Section1 />
                 <div className="container-fluid text-white about-four-cards">
-                    <div className="row  px-md-0 px-lg-0">
+                    <div className="row px-md-0 px-lg-0">
                         <div className="col-lg-3 col-md-6 px-4 py-5" style={{ background: "linear-gradient(to bottom right, #000, #1f1f1f, #545454)" }}>
                             <img src={tick} />
                             <h2>Integrity</h2>
