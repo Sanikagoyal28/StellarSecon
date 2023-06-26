@@ -12,7 +12,7 @@
 $primary : #C23947;
 $primaryColor : #C23947;
 $enable-negative-margins: true;
-$carousel-transition-duration: 0.2s;
+// $carousel-transition-duration: 0.2s;
 
 $grid-breakpoints: (
     xs: 0,
@@ -24,17 +24,20 @@ $grid-breakpoints: (
 );
 
 .orangeText {
-    @include text(1rem, 500, "Heebo", $primaryColor )
+    @include text(1rem, 500, 'Scene Pro', $primaryColor );
+    font-family: 'Scene Pro', sans-serif !important;
 }
 
 .blackText {
-    @include text(2.5rem, 700, "Barlow", "#000");
+    @include text(2.5rem, 700, 'Scene Pro', "#000");
     letter-spacing: 2px;
     line-height: 44px;
+    font-family: 'Scene Pro', sans-serif !important;
 }
 
 .slideText {
-    @include text(4rem, 700, "Heebo", "#fff");
+    @include text(4rem, 700, 'Scene Pro', "#fff");
+    font-family: 'Scene Pro', sans-serif !important;
 }
 
 .ulList {
@@ -64,10 +67,6 @@ $grid-breakpoints: (
     .slideText {
         font-size: 3.8rem;
     }
-
-    .underline {
-        width: 310px;
-    }
 }
 
 @media(max-width:550px) {
@@ -75,19 +74,11 @@ $grid-breakpoints: (
         font-size: 3.5rem;
         line-height: 76px !important;
     }
-
-    .underline {
-        width: 300px;
-    }
 }
 
 @media(max-width:450px) {
     .slideText {
         font-size: 3rem;
-    }
-
-    .underline {
-        width: 260px;
     }
 }
 
@@ -96,6 +87,7 @@ $grid-breakpoints: (
     transition: all 500ms ease;
 
     h5 {
+        transition-delay: 400ms;
         animation: text-animate 1s ease-in-out infinite;
     }
 
@@ -130,24 +122,24 @@ $grid-breakpoints: (
 }
 
 @keyframes text-animate {
-    25%{
-        opacity:0.25;
-        transform:scale(0.95)
+    25% {
+        opacity: 0.25;
+        transform: scale(0.95)
     }
 
-    50%{
-        opacity:0.5;
-        transform:scale(1)
+    50% {
+        opacity: 0.5;
+        transform: scale(1)
     }
 
-    75%{
-        opacity:0.75;
-        transform:scale(0.95)
+    75% {
+        opacity: 0.75;
+        transform: scale(0.95)
     }
 
-    100%{
-        opacity:1;
-        transform:scale(1)
+    100% {
+        opacity: 1;
+        transform: scale(1)
     }
 }
 
@@ -159,6 +151,53 @@ $grid-breakpoints: (
         background: white;
         color: $primary;
         transition: all 500ms ease-in-out
+    }
+}
+
+.marketCard {
+
+    height: 240px !important;
+
+    img{
+        width:100%;
+        height:100%;
+    }
+
+    h5 {
+        display: none;
+    }
+
+    button {
+        display: none;
+        position: absolute;
+        bottom: 10px;
+        right: 1vw;
+        color: rgb(0, 0, 0,0.6) !important;
+    }
+}
+
+.marketCard:hover {
+    transform: scale(1.05);
+    background-image: linear-gradient(to bottom right, #dd322b, #ba312a, #912c26);
+    transition: all 0.5s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        display: none;
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    button {
+        display: block;
+    }
+
+    h5 {
+        display: block;
+        font-size: 1.6rem !important;
     }
 }
 

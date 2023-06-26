@@ -7,9 +7,9 @@ import { useEffect } from "react"
 
 function About() {
 
-    // useEffect(() => {
-    //     window.scroll(0, 0)
-    // }, [])
+    useEffect(() => {
+        window.scroll(0, 0)
+    }, [])
 
     window.addEventListener("scroll", animate)
 
@@ -68,10 +68,10 @@ function About() {
                             <p className="about-content-2">SECON focus on providing industrial composite products and services with unique designs, reliable manufacturing and delivering at high precision and quality. SECON caters comprehensive composite solutions to various industries such as Oil & Gas, Petrochemical, Energy, Road, Utility, Infrastructure, Sewage, Marine, Automobile, Landscaping and Agriculture.
                             </p>
                         </div>
-                        <div className="col-lg-6 col-md-6 text-white pb-0 px-0 py-0 bg-transparent overflow-hidden aColumn2">
-                            <img src={img1} width="100%" className="mb-n5" />
+                        <div className="col-lg-6 col-md-6 text-white pb-0 px-0 py-0 overflow-hidden aColumn2 background-image" >
+                            {/* <img src={img1} width="100%" className="mb-n5 background-image"/> */}
                             <div className="aboutContent overflow-hidden mx-5 my-5">
-                                <h3 className="mt-4 mb-3 overflow-hidden">VISION</h3>
+                                <h3 className="mt-4 text-white mb-3 overflow-hidden">VISION</h3>
                                 <p className="mb-5">Be the leader for most innovative and reliable composite solutions.</p>
                                 <h3 className="mt-4 mb-3 overflow-hidden">MISSION</h3>
                                 <p className="mb-5 col-md-9">To offer composite products and services, meeting client expectation with high quality, keeping health and safety standards, growing through innovation, and profitability to every stakeholder. </p>

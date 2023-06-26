@@ -5,7 +5,7 @@ import slider_3 from "../../../assets/slider_3.svg"
 
 function Section1() {
     return <>
-        <div id="carouselExampleIndicators" className="carousel slide" style={{marginTop:"70px"}} data-bs-ride="carousel">
+        <div id="carouselExampleIndicators" className="carousel slide" style={{ marginTop: "70px" }} data-bs-ride="carousel">
             <div className="carousel-indicators bg-transparent">
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -14,26 +14,30 @@ function Section1() {
             <div className="carousel-inner">
                 <div className="carousel-item active">
                     <div className="row">
-                        <img src={slider_1} width="100vw" className="image" />
+                        {/* <img src={slider_1} width="100vw" className="image" /> */}
+                        <div style={{ backgroundImage: `url${slider_1}` }} className="sliderImage" />
                         <Sect1Card firstText="Reliable Industrial Solutions"
-                            secText="Delivers sustainable solutions and services to various industries. Our partners and client’s value us for the quality of our products and services."
-                        />
+                                secText="Delivers sustainable solutions and services to various industries. Our partners and client’s value us for the quality of our products and services."
+                            />
+                      
                     </div>
                 </div>
                 <div className="carousel-item">
-                    <div className="row">
-                        <img src={slider_2} />
+                    <div className="row" style={{height:"fitContent"}}>
+                    
+                        <img src={slider_2} className="sliderImage" />
+                        {/* <div style={{ backgroundImage: `url(${slider_2})` }} className="sliderImage" /> */}
                         <Sect1Card firstText="Innovative Composite Products"
-                            secText="Focus on providing industrial composite products with unique design, precise manufacturing and delivering at high quality."
-                        />
+                                secText="Focus on providing industrial composite products with unique design, precise manufacturing and delivering at high quality."
+                            />
                     </div>
                 </div>
                 <div className="carousel-item">
                     <div className="row">
-                        <img src={slider_3} width="100vw" />
-                        <Sect1Card firstText="Design, Engineering and Manufacturing"
-                            secText="Expertise to offer complete design, engineering, and manufacturing as per client requirement. "
-                        />
+                        <div style={{ backgroundImage: `url${slider_3}` }} className="sliderImage" />
+                            <Sect1Card firstText="Design, Engineering and Manufacturing"
+                                secText="Expertise to offer complete design, engineering, and manufacturing as per client requirement. "
+                            />
                     </div>
                 </div>
             </div>

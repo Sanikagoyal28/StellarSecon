@@ -1,18 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700&family=Heebo:wght@300;400;500&display=swap');
 @import url('https://fonts.cdnfonts.com/css/glacial-indifference-2');
-@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&family=Playfair+Display:wght@400;500;600&family=Roboto+Slab:wght@300;500;600;700&display=swap');
+@import url('https://fonts.cdnfonts.com/css/isidora-soft-alt?styles=51539,51535,51537,51541,51533,51531,51553,51566,51564,51568,51560,51558');
+@import url('https://fonts.cdnfonts.com/css/scene-pro?styles=66084,66083,66079,66077');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     /* overflow-x: hidden; */
-    font-family: "Heebo", sans-serif;
+    font-family: 'Scene Pro', sans-serif;
     z-index: 1;
 }
 
 body {
     background-color: #fff;
+    overflow-x: hidden;
 }
 
 ::-webkit-scrollbar {
@@ -20,9 +22,22 @@ body {
 }
 
 .image {
-
     filter: brightness(45%);
     height: 600px;
+}
+
+.sliderImage {
+    width: 100%;
+    background-size: cover;
+    background: no-repeat center fixed;
+    height: fit-content;
+    background: rgba(0, 0, 0, 0.9);
+    position: absolute;
+    /* z-index: 10; */
+    /* top: 100px; */
+    padding-bottom: 40px;
+    left: 0;
+    filter: brightness(40%);
 }
 
 .F6F6F6 {
@@ -31,6 +46,10 @@ body {
 
 .f2f2f2 {
     background-color: #f2f2f2;
+}
+
+.background-image {
+    background-color: #252525 !important;
 }
 
 .carouselArrow1 {
@@ -82,7 +101,7 @@ li::marker {
 
 .hColumn2,
 .hColumn1 {
-    height: 650px;
+    height: 600px;
 }
 
 .aColumn1 {
@@ -102,17 +121,29 @@ li::marker {
 
 .aboutContent {
     position: relative;
-    bottom: 380px;
+    top: 12px;
 }
 
 .serviceCard {
-    width:100% !important;
+    width: 100% !important;
     height: 385px !important;
-    border-radius :0px !important;
+    border-radius: 0px !important;
 }
 
 .projCard {
     height: 190px !important;
+}
+
+.projCard h5 {
+    width: 100%;
+    height: 50%;
+    background-color: #C23947;
+}
+
+.projCard h6 {
+    width: 100%;
+    height: 50%;
+    color: #C23947;
 }
 
 /* for fixing footer */
@@ -362,11 +393,11 @@ nav .content .links {
     }
 }
 
-@media(max-width:1400px) {
+@media(max-width:1300px) {
 
     .hColumn2,
     .hColumn1 {
-        height: 750px;
+        height: 680px;
     }
 }
 
@@ -399,7 +430,7 @@ nav .content .links {
 
     .hColumn2,
     .hColumn1 {
-        height: 800px;
+        height: 720px;
     }
 
     .serviceCard {
@@ -624,6 +655,23 @@ nav .content .links {
     top: 0;
 }
 
+.sCard1 {
+    position: relative;
+    right: -100vw;
+    animation: sCardAnimate ease-in;
+    animation-delay: 1s;
+}
+
+@keyframes sCardAnimate {
+    50% {
+        right: 50vw;
+    }
+
+    100% {
+        right: 0;
+    }
+}
+
 .home-about-1,
 .home-about-2,
 .home-about-3 {
@@ -665,7 +713,7 @@ nav .content .links {
 }
 
 .service-button:hover {
-    background-image: linear-gradient(to right,#878787,#b2b2b2, #b7b7b7) !important;
+    background-image: linear-gradient(to right, #878787, #b2b2b2, #b7b7b7) !important;
     background-color: #fff !important;
     background-size: 100%, 50% !important;
     color: #000 !important;
@@ -674,3 +722,91 @@ nav .content .links {
     transition: all 300ms ease-in-out;
 }
 
+.serviceText0,
+.serviceText1,
+.serviceText2,
+.serviceText3,
+.serviceText4,
+.serviceText5,
+.aCard1,
+.aCard2,
+.aCard3,
+.aCard4,
+.aCard5 {
+    position: relative;
+    top: 80px;
+    opacity: 0;
+}
+
+.serviceText0.active,
+.aCard1.active {
+    animation: textShow .5s ease-in forwards;
+    animation-delay: 0.3s;
+    animation-timing-function: linear;
+}
+
+.serviceText1.active,
+.aCard2.active {
+    animation: textShow .5s ease-in forwards;
+    animation-delay: 0.5s;
+    animation-timing-function: linear;
+}
+
+.serviceText2.active,
+.aCard3.active {
+    animation: textShow .5s ease-in forwards;
+    animation-delay: 0.75s;
+    animation-timing-function: linear;
+}
+
+.serviceText3.active,
+.aCard4.active {
+    animation: textShow .5s ease-in forwards;
+    animation-delay: 1s;
+    animation-timing-function: linear;
+}
+
+.serviceText4.active,
+.aCard5.active {
+    animation: textShow .5s ease-in forwards;
+    animation-delay: 1.4s;
+    animation-timing-function: linear;
+}
+
+.serviceText5.active {
+    animation: textShow .5s ease-in forwards;
+    animation-delay: 1.8s;
+    animation-timing-function: linear;
+}
+
+@keyframes textShow {
+
+    50% {
+        top: 25px;
+        opacity: 0.5;
+    }
+
+    100% {
+        top: 0;
+        opacity: 1
+    }
+}
+
+.projectText {
+    opacity: 0;
+}
+
+.projectText.active {
+    animation: project-text 3s ease-in forwards;
+    animation-timing-function: linear;
+}
+
+@keyframes project-text {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
