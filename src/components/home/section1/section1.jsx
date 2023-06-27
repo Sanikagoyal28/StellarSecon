@@ -15,29 +15,29 @@ function Section1() {
                 <div className="carousel-item active">
                     <div className="row">
                         {/* <img src={slider_1} width="100vw" className="image" /> */}
-                        <div style={{ backgroundImage: `url${slider_1}` }} className="sliderImage" />
-                        <Sect1Card firstText="Reliable Industrial Solutions"
+                        <div style={{ backgroundImage: `url(${slider_1})` }} className="sliderImage">
+                            <Sect1Card firstText="Reliable Industrial Solutions"
                                 secText="Delivers sustainable solutions and services to various industries. Our partners and client’s value us for the quality of our products and services."
                             />
-                      
+                        </div>
                     </div>
                 </div>
                 <div className="carousel-item">
-                    <div className="row" style={{height:"fitContent"}}>
-                    
-                        <img src={slider_2} className="sliderImage" />
-                        {/* <div style={{ backgroundImage: `url(${slider_2})` }} className="sliderImage" /> */}
+                    <div className="row" style={{ height: "fitContent" }}>
+                        <div style={{ backgroundImage: `url(${slider_2})` }} className="sliderImage">
                         <Sect1Card firstText="Innovative Composite Products"
-                                secText="Focus on providing industrial composite products with unique design, precise manufacturing and delivering at high quality."
-                            />
+                            secText="Focus on providing industrial composite products with unique design, precise manufacturing and delivering at high quality."
+                        />
+                        </div>
                     </div>
                 </div>
                 <div className="carousel-item">
                     <div className="row">
-                        <div style={{ backgroundImage: `url${slider_3}` }} className="sliderImage" />
+                        <div style={{ backgroundImage: `url(${slider_3})` }} className="sliderImage" >
                             <Sect1Card firstText="Design, Engineering and Manufacturing"
                                 secText="Expertise to offer complete design, engineering, and manufacturing as per client requirement. "
                             />
+                        </div>
                     </div>
                 </div>
             </div>

@@ -28,16 +28,12 @@ body {
 
 .sliderImage {
     width: 100%;
-    background-size: cover;
-    background: no-repeat center fixed;
     height: fit-content;
-    background: rgba(0, 0, 0, 0.9);
-    position: absolute;
-    /* z-index: 10; */
-    /* top: 100px; */
-    padding-bottom: 40px;
-    left: 0;
-    filter: brightness(40%);
+    background: rgba(0, 0, 0, 0.4);
+    background: no-repeat center fixed;
+    background-size: cover;
+    filter: brightness(80%);
+    padding: 60px;
 }
 
 .F6F6F6 {
@@ -60,10 +56,6 @@ body {
 .carouselArrow2 {
     position: relative;
     left: 50px;
-}
-
-.fefefe {
-    color: #f1efef;
 }
 
 .productFlex {
@@ -630,18 +622,6 @@ nav .content .links {
     }
 }
 
-.about-four-cards {
-    position: relative;
-    top: 50px;
-    opacity: 0;
-    transition: all 2s ease;
-}
-
-.about-four-cards.active {
-    top: 0;
-    opacity: 1;
-}
-
 /*  home page animation */
 .service-animate {
     position: relative;
@@ -779,6 +759,18 @@ nav .content .links {
     animation-timing-function: linear;
 }
 
+.aboutText {
+    position: relative;
+    top: 80px;
+    opacity: 0;
+}
+
+.aboutText.active {
+    animation: textShow .5s ease-in forwards;
+    animation-delay: 0.7s;
+    animation-timing-function: linear;
+}
+
 @keyframes textShow {
 
     50% {
@@ -808,5 +800,86 @@ nav .content .links {
 
     100% {
         opacity: 1;
+    }
+}
+
+.left {
+    opacity: 0;
+    position: relative;
+    right: 200px;
+}
+
+.left.active {
+    animation: animateLeft 0.5s ease-in-out forwards;
+    animation-delay: 1.2s;
+    animation-timing-function: linear;
+}
+
+@keyframes animateLeft {
+    50% {
+        opacity: 0.5;
+        right: 80px;
+    }
+
+    100% {
+        opacity: 1;
+        right: 0;
+    }
+}
+
+.right {
+    opacity: 0;
+    position: relative;
+    left: 200px;
+}
+
+.right.active {
+    animation: animateRight 0.7s ease-in-out forwards;
+    animation-delay: 2s;
+    animation-timing-function: linear;
+}
+
+@keyframes animateRight {
+    50% {
+        opacity: 0.5;
+        left: 100px;
+    }
+
+    100% {
+        opacity: 1;
+        left: 0;
+    }
+}
+
+.slideAnimate {
+    opacity: 0;
+    animation: slide 1s forwards ease;
+    animation-delay: 0.8s;
+    animation-timing-function: linear;
+    position: relative;
+    right: 150px;
+    background: linear-gradient(to right, #fff, #eee, #252525);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.slideAnimate button{
+    color: #fff;
+    background-clip:initial;
+
+}
+@keyframes slide {
+    30% {
+        opacity: 0.3;
+        right: 90px;
+    }
+
+    60% {
+        opacity: 0.6;
+        right: 60px;
+    }
+
+    100% {
+        opacity: 1;
+        right: 0;
     }
 }

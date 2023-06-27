@@ -9,6 +9,7 @@ function Section2() {
 
     function animate() {
         reveal()
+        moveLeft()
     }
 
     function reveal() {
@@ -26,7 +27,7 @@ function Section2() {
         else
             text1.classList.remove("active")
 
-        if (revealTop2 < windowHeight )
+        if (revealTop2 < windowHeight)
             text2.classList.add("active")
         else
             text2.classList.remove("active")
@@ -37,12 +38,23 @@ function Section2() {
             text3.classList.remove("active")
     }
 
+    function moveLeft() {
+        var left = document.getElementsByClassName("left")[0]
+        var windowHeight = window.innerHeight;
+        var top = left.getBoundingClientRect().top
+
+        if (top < windowHeight + 100)
+            left.classList.add("active")
+        else
+            left.classList.remove("active")
+    }
+
     const navigate = useNavigate()
 
     return <>
         <div className="container-fluid py-5 px-md-3 px-lg-0">
             <div className="row">
-                <div className="col-lg-5 ms-3 ps-0 col-md-5 col-sm-12 me-4 hColumn1 overflow-hidden"  >
+                <div className="left col-lg-5 ms-3 ps-0 col-md-5 col-sm-12 me-4 hColumn1 overflow-hidden"  >
                     <img className="shadow mb-sm-4" src={about} />
                 </div>
                 <div className="col-lg-6 text-center col-md-7 col-sm-11 hColumn2"  >
@@ -51,8 +63,8 @@ function Section2() {
                     <p className="fs-5 fw-normal lh-base home-about-3" style={{ opacity: 0.8 }}>SECON (Systems Engineers & Contractors) is a Glass Reinforced Polyester (GRP) product manufacturing company established in 2013 serving businesses and projects in Qatar and internationally.
                         SECON focus on providing industrial composite products and services with unique designs, reliable manufacturing and delivering at high precision and quality. SECON caters comprehensive composite solutions to various industries such as Oil & Gas, Petrochemical, Energy, Road, Utility, Infrastructure, Sewage, Marine, Automobile, Landscaping and Agriculture.
                     </p>
-                    <button className="btn btn-primary px-3 py-2 text-white mainButton about-btn-animate" onClick={()=>{navigate("/about")}}>Read More
-                    <FontAwesomeIcon className="ms-1" style={{fontSize:"14px"}} icon={faAnglesRight} />
+                    <button className="btn btn-primary px-3 py-2 text-white mainButton about-btn-animate" onClick={() => { navigate("/about") }}>Read More
+                        <FontAwesomeIcon className="ms-1" style={{ fontSize: "14px" }} icon={faAnglesRight} />
                     </button>
                 </div>
             </div>
