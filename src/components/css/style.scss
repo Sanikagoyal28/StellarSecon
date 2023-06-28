@@ -24,20 +24,20 @@ $grid-breakpoints: (
 );
 
 .orangeText {
-    @include text(1rem, 500, 'Scene Pro', $primaryColor );
-    font-family: 'Scene Pro', sans-serif !important;
+    @include text(1rem, 500, 'Isidora Soft Alt', $primaryColor );
+    // font-family:  'Isidora Soft Alt', sans-serif !important;
 }
 
 .blackText {
-    @include text(2.5rem, 700, 'Scene Pro', "#000");
+    @include text(2.5rem, 700, 'Isidora Soft Alt', "#000");
     letter-spacing: 2px;
     line-height: 44px;
-    font-family: 'Scene Pro', sans-serif !important;
+    // font-family:  'Isidora Soft Alt', sans-serif !important;
 }
 
 .slideText {
-    @include text(4rem, 700, 'Scene Pro', "#fff");
-    font-family: 'Scene Pro', sans-serif !important;
+    @include text(4rem, 700, 'Isidora Soft Alt', "#fff");
+    // font-family:  'Isidora Soft Alt', sans-serif !important;
 }
 
 .ulList {

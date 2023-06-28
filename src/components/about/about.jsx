@@ -24,12 +24,12 @@ function About() {
     function text() {
         var content = document.getElementsByClassName("aboutText")
 
+        console.log(content)
+
         var windowHeight = window.innerHeight;
 
         for (var i = 0; i < content.length; i++) {
             var top = content[i].getBoundingClientRect().top
-
-            console.log(top, windowHeight)
 
             if (top < windowHeight + 50) {
                 content[i].classList.add("active")

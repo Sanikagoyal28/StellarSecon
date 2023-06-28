@@ -1,13 +1,15 @@
-import image from "../../../assets/project.png"
+import image from "../../../assets/project.svg"
 
 function ProjCard(props) {
     return <>
-        <div className="card bg-none border-0 rounded-0 mx-3 my-3" style={{background :"none"}}>
+        <div className="card bg-none border-0 rounded-0 mx-3 my-3" style={{ background: "none" }}>
             <img src={image} className="mb-2" />
-            <div className="d-flex flex-column justify-content-center align-items-center px-2 text-center" >
-                <h5 className="overflow-hidden">{props.head}</h5>
-                <p className="text-center my-2 mx-4" style={{opacity:0.95}}>{props.scope}</p>
-                <p className="my-0" style={{fontSize:"0.95rem"}}>{props.year}&nbsp; {props.status} </p>
+            <div className="d-flex flex-column justify-content-start align-items-start" >
+                <h5 className="my-0 mb-2" style={{ opacity: "0.8" }}>Company Name</h5>
+                <div className="d-flex justify-content-between" style={{width:"100%"}}>
+                    <h5 className="overflow-hidden me-a">{props.head}</h5>
+                    <h5 className="my-0">{props.year} </h5>
+                </div>
             </div>
         </div>
     </>
