@@ -26,13 +26,6 @@ function Product() {
         }
     }, [product])
 
-    useEffect(() => {
-        window.scroll(0, 0)
-    }, [])
-
-   
-    window.addEventListener("scroll", animate)
-
     function animate() {
         card()
     }
@@ -56,6 +49,14 @@ function Product() {
             }
         }
     }
+
+    useEffect(() => {
+        window.scroll(0, 0)
+        window.addEventListener("scroll", animate)
+        return () => {
+            window.removeEventListener("scroll", animate)
+        }
+    }, [])
 
     return <>
         <div className="bodyWrapper">

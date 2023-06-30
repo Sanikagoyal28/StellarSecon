@@ -2,10 +2,11 @@ import { useNavigate } from "react-router"
 import about from "../../assets/about_1.svg"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faAnglesRight } from "@fortawesome/free-solid-svg-icons"
+import { useEffect } from "react"
 
 function Section2() {
 
-    window.addEventListener("scroll", animate)
+    const navigate = useNavigate()
 
     function animate() {
         reveal()
@@ -49,21 +50,27 @@ function Section2() {
             left.classList.remove("active")
     }
 
-    const navigate = useNavigate()
+    useEffect(() => {
+        window.addEventListener("scroll", animate)
+        return () => {
+            window.removeEventListener("scroll", animate)
+            console.log("unmount")
+        }
+    }, [])
 
     return <>
         <div className="container-fluid py-5 px-md-3 px-lg-0">
             <div className="row">
-                <div className="left col-lg-5 ms-3 ps-0 col-md-5 col-sm-12 me-4 hColumn1 overflow-hidden"  >
-                    <img className="shadow mb-sm-4" src={about} />
+                <div className="left col-lg-5 ms-3 ps-0 col-md-5 me-2 col-sm-12 hColumn1 overflow-hidden"  >
+                    <img className="shadow mb-sm-4 overflow-hidden" src={about} />
                 </div>
-                <div className="col-lg-6 text-center col-md-7 col-sm-11 hColumn2"  >
-                    <p className="orangeText home-about-1">Welcome To The World Of SECON, Where Innovation, Durability, And Sustainability Come Together To Provide Comprehensive Composite Solutions For Your Business Needs.</p>
-                    <h2 className="mb-3 blackText home-about-2">Experience The Power Of Innovative And Sustainable Composite Solutions With SECON.</h2>
-                    <p className="fs-5 fw-normal lh-base home-about-3" style={{ opacity: 0.8 }}>SECON (Systems Engineers & Contractors) is a Glass Reinforced Polyester (GRP) product manufacturing company established in 2013 serving businesses and projects in Qatar and internationally.
+                <div className="col-lg-6 text-center col-md-6 col-sm-11 hColumn2 overflow-hidden"  >
+                    <p className="orangeText home-about-1 overflow-hidden">Welcome To The World Of SECON, Where Innovation, Durability, And Sustainability Come Together To Provide Comprehensive Composite Solutions For Your Business Needs.</p>
+                    <h2 className="mb-3 blackText home-about-2 overflow-hidden">Experience The Power Of Innovative And Sustainable Composite Solutions With SECON.</h2>
+                    <p className="fs-5 fw-normal lh-base home-about-3 overflow-hidden" style={{ opacity: 0.8 }}>SECON (Systems Engineers & Contractors) is a Glass Reinforced Polyester (GRP) product manufacturing company established in 2013 serving businesses and projects in Qatar and internationally.
                         SECON focus on providing industrial composite products and services with unique designs, reliable manufacturing and delivering at high precision and quality. SECON caters comprehensive composite solutions to various industries such as Oil & Gas, Petrochemical, Energy, Road, Utility, Infrastructure, Sewage, Marine, Automobile, Landscaping and Agriculture.
                     </p>
-                    <button className="btn btn-primary px-3 py-2 text-white mainButton about-btn-animate" onClick={() => { navigate("/about") }}>Read More
+                    <button className="btn btn-primary px-3 py-2 text-white mainButton about-btn-animate overflow-hidden" onClick={() => { navigate("/about") }}>Read More
                         <FontAwesomeIcon className="ms-1" style={{ fontSize: "14px" }} icon={faAnglesRight} />
                     </button>
                 </div>

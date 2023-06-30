@@ -40,12 +40,6 @@ function Project() {
         }
     }, [project])
 
-    useEffect(() => {
-        window.scroll(0, 0)
-    }, [])
-
-    window.addEventListener("scroll", animate)
-
     function animate() {
         reveal()
         text()
@@ -94,6 +88,14 @@ function Project() {
         }
     }
 
+    useEffect(() => {
+        window.scroll(0, 0)
+        window.addEventListener("scroll", animate)
+        return () => {
+            window.removeEventListener("scroll", animate)
+        }
+    }, [])
+
     return <>
         <div className="bodyWrapper">
             <Navbar />
@@ -106,25 +108,25 @@ function Project() {
                     <Carousel image={img1} />
 
                     <div className="row my-4 mx-2 d-flex justify-content-center align-items-center">
-                        <div className="col-md-3">
+                        <div className="col-md-3 mb-sm-5 mb-md-0 mb-lg-0 mb-xl-0">
                             <div className="card aCard1 py-0 projCard shadow text-center text-white" >
                                 <h5 className="d-flex px-2 justify-content-center align-items-center">Project</h5>
                                 <h6 className="d-flex px-2 justify-content-center align-items-center">{data.title}</h6>
                             </div>
                         </div>
-                        <div className="col-md-3">
+                        <div className="col-md-3 mb-sm-5 mb-md-0 mb-lg-0 mb-xl-0">
                             <div className="card aCard2 py-0 projCard shadow text-center text-white" >
                                 <h5 className="d-flex px-2 justify-content-center align-items-center">Client</h5>
                                 <h6 className="d-flex px-2 justify-content-center align-items-center">{data.client}</h6>
                             </div>
                         </div>
-                        <div className="col-md-3">
+                        <div className="col-md-3 mb-sm-5 mb-md-0 mb-lg-0 mb-xl-0">
                             <div className="card aCard3 py-0 projCard shadow text-center text-white" >
                                 <h5 className="d-flex px-2 justify-content-center align-items-center">Scope</h5>
                                 <h6 className="d-flex px-2 justify-content-center align-items-center">{data.scope}</h6>
                             </div>
                         </div>
-                        <div className="col-md-3">
+                        <div className="col-md-3 mb-sm-5 mb-md-0 mb-lg-0 mb-xl-0">
                             <div className="card py-0 aCard4 projCard shadow text-center text-white" >
                                 <h5 className="d-flex px-2 justify-content-center align-items-center">Year <br /> ( Status )</h5>
                                 <h6 className="d-flex px-2 justify-content-center align-items-center">{data.year} <br /> ( {data.status} )</h6>

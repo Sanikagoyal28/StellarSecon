@@ -9,12 +9,6 @@ import three from "../../assets/iso_3.svg"
 
 function About() {
 
-    useEffect(() => {
-        window.scroll(0, 0)
-    }, [])
-
-    window.addEventListener("scroll", animate)
-
     function animate() {
         reveal()
         fade()
@@ -23,8 +17,6 @@ function About() {
 
     function text() {
         var content = document.getElementsByClassName("aboutText")
-
-        console.log(content)
 
         var windowHeight = window.innerHeight;
 
@@ -79,6 +71,14 @@ function About() {
             }
         }
     }
+
+    useEffect(() => {
+        window.scroll(0, 0)
+        window.addEventListener("scroll", animate)
+        return () => {
+            window.removeEventListener("scroll", animate)
+        }
+    }, [])
 
     return <>
         <div className='bodyWrapper'>

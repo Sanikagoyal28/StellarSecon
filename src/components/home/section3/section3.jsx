@@ -1,9 +1,8 @@
 import { useNavigate } from "react-router";
 import ServiceCard from "./serviceCard";
+import { useEffect } from "react";
 
 function Section3() {
-
-    window.addEventListener("scroll", animate)
 
     function animate() {
         service()
@@ -31,7 +30,14 @@ function Section3() {
             four.classList.remove("active")
         }
     }
-    
+
+    useEffect(() => {
+        window.addEventListener("scroll", animate)
+        return () => {
+            window.removeEventListener("scroll", animate)
+        }
+    }, [])
+
     const navigate = useNavigate()
     return <>
         <div className="container-fluid py-5" style={{ backgroundColor: "#f1f0f0" }}>

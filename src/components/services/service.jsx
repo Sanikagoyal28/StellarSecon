@@ -35,12 +35,6 @@ function Service() {
         }
     }, [name])
 
-    useEffect(() => {
-        window.scroll(0, 0)
-    }, [])
-
-    window.addEventListener("scroll", animate)
-
     function animate() {
         reveal()
     }
@@ -60,14 +54,14 @@ function Service() {
         var top3 = three.getBoundingClientRect().top
         var top4 = four.getBoundingClientRect().top
 
-        if (top0 < windowHeight ) {
+        if (top0 < windowHeight) {
             zero.classList.add("active")
         }
         else {
             zero.classList.remove("active")
         }
 
-        if (top1 < windowHeight + 50 ) {
+        if (top1 < windowHeight + 50) {
             one.classList.add("active")
         }
         else {
@@ -105,6 +99,14 @@ function Service() {
             }
         }
     }
+
+    useEffect(() => {
+        window.scroll(0, 0)
+        window.addEventListener("scroll", animate)
+        return () => {
+            window.removeEventListener("scroll", animate)
+        }
+    }, [])
 
     return <>
         <div className="bodyWrapper">

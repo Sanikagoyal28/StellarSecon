@@ -28,12 +28,6 @@ function Sectors() {
         }
     }, [sector])
 
-    useEffect(() => {
-        window.scroll(0, 0)
-    }, [])
-
-    window.addEventListener("scroll", animate)
-
     function animate() {
         reveal()
     }
@@ -83,6 +77,14 @@ function Sectors() {
             }
         }
     }
+
+    useEffect(() => {
+        window.scroll(0, 0)
+        window.addEventListener("scroll", animate)
+        return () => {
+            window.removeEventListener("scroll", animate)
+        }
+    }, [])
 
     return <>
         <div className="bodyWrapper">
