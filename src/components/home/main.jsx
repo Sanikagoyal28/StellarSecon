@@ -9,7 +9,7 @@ import Footer from '../utils/footer'
 import Navbar from '../utils/navbar'
 import slider_1 from "../../assets/slider_1.svg"
 import Sect1Card from './section1/sect1Card'
-// import Nav from '../utils/nav'
+import Nav from '../utils/nav'
 
 export default function Main() {
 
@@ -30,7 +30,7 @@ export default function Main() {
                 {/* <Section5 /> */}
                 {/* <Section6 /> */}
             </div>
-            <Footer />
+            {/* <Footer /> */}
         </div>
     </>
 }

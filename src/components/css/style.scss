@@ -12,7 +12,7 @@
 $primary : #C23947;
 $primaryColor : #C23947;
 $enable-negative-margins: true;
-// $carousel-transition-duration: 0.2s;
+$carousel-transition-duration: 0.2s;
 
 $grid-breakpoints: (
     xs: 0,
@@ -25,19 +25,16 @@ $grid-breakpoints: (
 
 .orangeText {
     @include text(1rem, 500, 'Isidora Soft Alt', $primaryColor );
-    // font-family:  'Isidora Soft Alt', sans-serif !important;
 }
 
 .blackText {
     @include text(2.5rem, 700, 'Isidora Soft Alt', "#000");
     letter-spacing: 2px;
     line-height: 44px;
-    // font-family:  'Isidora Soft Alt', sans-serif !important;
 }
 
 .slideText {
     @include text(4rem, 700, 'Isidora Soft Alt', "#fff");
-    // font-family:  'Isidora Soft Alt', sans-serif !important;
 }
 
 .ulList {
@@ -49,6 +46,7 @@ $grid-breakpoints: (
     }
 }
 
+// footer icons
 .footImg {
     width: 32px;
     background-color: #45494E;
@@ -56,10 +54,10 @@ $grid-breakpoints: (
     padding: 6px;
 }
 
+// headings underline
 .underline {
     height: 4px;
     width: 100%;
-    // width:340px;
     background-color: #717171;
 }
 
@@ -82,6 +80,7 @@ $grid-breakpoints: (
     }
 }
 
+// home page , products
 .prodCard:hover {
     transform: scale(1.05);
     transition: all 500ms ease;
@@ -143,6 +142,7 @@ $grid-breakpoints: (
     }
 }
 
+// home page, about button
 .about-btn-animate {
     background-color: $primary;
 
@@ -154,6 +154,7 @@ $grid-breakpoints: (
     }
 }
 
+// home page, market cards
 .marketCard {
 
     img{

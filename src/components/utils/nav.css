@@ -1,0 +1,50 @@
+* {
+    /* overflow-x: hidden; */
+}
+
+.navbar {
+    background-color: #252525;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* height: 60px; */
+
+    box-shadow: 0 5px 25px rgb(0 0 0 / 20%);
+}
+
+.nav_menu {
+
+    padding: 0px 32px;
+    position: relative;
+}
+
+.nav_list {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    position:relative
+}
+
+.nav_list li {
+    list-style: none;
+}
+
+.nav_list li a {
+    margin: 0 16px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav_dropdown {
+    background-color: rgb(72, 124, 169);
+    display: flex;
+    flex-direction: column;
+    padding: 4px 8px;
+    position: absolute;
+    top:48px;
+    
+}

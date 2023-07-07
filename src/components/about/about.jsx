@@ -84,7 +84,7 @@ function About() {
         <div className='bodyWrapper'>
             <Navbar />
             <div style={{ flexGrow: 1 }}>
-                <div className="container-fluid mx-0 px-0" style={{ marginTop: "70px" }}>
+                <div className="container-f mx-0 px-0" style={{ marginTop: "70px" }}>
                     <img src={img1} width="100%" height="580px" />
                 </div>
                 <div className="container-fluid text-white">
@@ -116,9 +116,9 @@ function About() {
                     <div className="row f2f2f2 pb-0">
                         <div className="col-lg-6 col-md-6 mt-md-5 mt-sm-2 px-5 pt-5 pb-sm-5 aColumn1 overflow-hidden">
                             {/* <h3 className="my-5">Secon</h3> */}
-                            <p className="about-content-1 aboutText">SECON (Systems Engineers & Contractors) is a Glass Reinforced Polyester (GRP) product manufacturing company established in 2013 serving businesses and projects in Qatar and internationally.
+                            <p className="aboutText">SECON (Systems Engineers & Contractors) is a Glass Reinforced Polyester (GRP) product manufacturing company established in 2013 serving businesses and projects in Qatar and internationally.
                             </p><br />
-                            <p className="about-content-2 aboutText">SECON focus on providing industrial composite products and services with unique designs, reliable manufacturing and delivering at high precision and quality. SECON caters comprehensive composite solutions to various industries such as Oil & Gas, Petrochemical, Energy, Road, Utility, Infrastructure, Sewage, Marine, Automobile, Landscaping and Agriculture.
+                            <p className="aboutText">SECON focus on providing industrial composite products and services with unique designs, reliable manufacturing and delivering at high precision and quality. SECON caters comprehensive composite solutions to various industries such as Oil & Gas, Petrochemical, Energy, Road, Utility, Infrastructure, Sewage, Marine, Automobile, Landscaping and Agriculture.
                             </p>
                         </div>
                         <div className="col-lg-6 col-md-6 text-white pb-0 px-0 py-0 overflow-hidden aColumn2 background-image" >

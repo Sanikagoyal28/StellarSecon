@@ -1,0 +1,10 @@
+
+.project-container {
+    display: flex;
+    /* margin-top:50px !important; */
+}
+
+.panel {
+    width: fit-content;
+    height: fit-content;
+}

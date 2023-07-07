@@ -13,7 +13,7 @@ function Section1() {
             </div>
             <div className="carousel-inner">
                 <div className="carousel-item active">
-                    <div className="row">
+                    <div className="row" style={{position:"relative", zIndex:"1"}}>
                         {/* <img src={slider_1} width="100vw" className="image" /> */}
                         <div style={{ backgroundImage: `url(${slider_1})` }} className="sliderImage">
                             <Sect1Card firstText="Reliable Industrial Solutions"
