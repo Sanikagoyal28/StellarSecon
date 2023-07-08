@@ -101,7 +101,7 @@ function Project() {
             <Navbar />
             <div style={{ flexGrow: 1, marginTop: "70px" }}>
                 <div className="container-fluid px-0 py-5">
-                    <div className="fitContent mb-n3 m-auto text-center">
+                    <div className="fitContent mb-n3 m-auto text-center px-2">
                         <h2 className="slideText heading mb-0" >{data.title}</h2>
                         <div className="underline" />
                     </div>

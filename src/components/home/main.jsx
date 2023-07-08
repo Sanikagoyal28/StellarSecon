@@ -7,9 +7,6 @@ import Section5 from './section5/section5'
 import Section6 from './section6/section6'
 import Footer from '../utils/footer'
 import Navbar from '../utils/navbar'
-import slider_1 from "../../assets/slider_1.svg"
-import Sect1Card from './section1/sect1Card'
-import Nav from '../utils/nav'
 
 export default function Main() {
 
@@ -20,7 +17,6 @@ export default function Main() {
 
     return <>
         <div className='bodyWrapper'>
-            {/* <Nav /> */}
             <Navbar />
             <div style={{ flexGrow: 1 }}>
                 <Section1 />
@@ -28,9 +24,9 @@ export default function Main() {
                 <Section3 />
                 <Section4 />
                 {/* <Section5 /> */}
-                {/* <Section6 /> */}
+                <Section6 />
             </div>
-            {/* <Footer /> */}
+            <Footer />
         </div>
     </>
 }

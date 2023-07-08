@@ -115,7 +115,7 @@ function Service() {
                 <Carousel image={image} />
 
                 <div className="container my-3">
-                    <div className="fitContent serviceText0">
+                    <div className="fitContent text-center px-2 serviceText0">
                         <h2 className="slideText heading mb-0" >{title}</h2>
                         <div className="underline mb-3" />
                     </div>

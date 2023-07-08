@@ -66,14 +66,14 @@ function Product() {
                     <img src={img1} width="100%" height="580px" />
                 </div>
                 <div className="container-lg my-5">
-                    <div className="fitContent mt-5 mb-4">
+                    <div className="fitContent mt-5 text-center mb-4 px-2">
                         <h2 className="slideText heading mb-0" >{title}</h2>
                         <div className="underline mb-4" />
                     </div>
 
                     <ul className="ps-0 serviceUl">
                         {list.length > 0 ? list.map((l) => {
-                            return <div className="row mb-4 px-sm-3 px-md-0 px-lg-0 justify-left-center align-items-center">
+                            return <div className="row mb-4 px-sm-3 px-md-0 px-lg-0 justify-content-center align-items-center">
                                 <div className="left col-md-6 me-4">
                                     <img className="me-3" src={arrow} width="22px" />
                                     <div className="ms-md-4.5 ms-sm-4 mt-n4">
@@ -81,8 +81,8 @@ function Product() {
                                         <p className="overflow-hidden">{l.content}</p>
                                     </div>
                                 </div>
-                                <div className="right d-flex flex-column justify-left-center align-items-center col-md-5 px-0 col-sm-10 ms-lg-5 ms-md-1 ms-sm-0">
-                                    <img src={l.image} width="360px" />
+                                <div className="right d-flex flex-column justify-content-center align-items-center col-md-5 px-0 col-sm-10 ms-lg-5 ms-md-1 ms-sm-0">
+                                    <img src={l.image} className="productImage" />
                                 </div>
                             </div>
                         }) : null}
