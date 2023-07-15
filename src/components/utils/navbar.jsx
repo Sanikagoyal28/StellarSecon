@@ -13,11 +13,11 @@ function Navbar() {
                 <input type="checkbox" id="show-menu" />
                 <label for="show-menu" className="menu-icon"><FontAwesomeIcon icon={faBars} color="#000" /></label>
                 <div className="content">
-                    <div className="logo"><Link to="/secon_website">
+                    <div className="logo my-0"><Link to="/StellarSecon">
                         <img src={logo} />
                     </Link></div>
                     <ul className="links">
-                        <li><Link to="/secon_website">Home</Link></li>
+                        <li><Link to="/StellarSecon">Home</Link></li>
                         <li><Link to="/about">About Us</Link></li>
                         <li>
                             <Link className="desktop-link">Products</Link>

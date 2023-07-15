@@ -207,7 +207,7 @@ nav .content .links {
 .wrapper .menu-icon {
     font-size: 28px;
     cursor: pointer;
-    margin-top: 8px;
+    /* margin-top: 8px; */
     width: 70px;
     text-align: center;
 }

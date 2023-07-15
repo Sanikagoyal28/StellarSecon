@@ -12,7 +12,7 @@ function App() {
   return <>
     <BrowserRouter>
       <Routes>
-        <Route path="/secon_website" exact element={<Main />} />
+        <Route path="/StellarSecon" exact element={<Main />} />
         <Route path="/about" exact element={<About />} />
         <Route path="/services/:name" element={<Service />} />
         <Route path="/sectors/:sector" element={<Sectors />} />
